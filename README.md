@@ -1,5 +1,19 @@
 # Omnomnomicon
 
+<!-- toc -->
+
+- [Stack](#stack)
+- [Prerequisites](#prerequisites)
+- [Local development](#local-development)
+- [Writing a journal entry](#writing-a-journal-entry)
+- [Writing a recipe](#writing-a-recipe)
+- [Images](#images)
+- [Validation](#validation)
+- [Deployment](#deployment)
+- [Project documents](#project-documents)
+
+<!-- tocstop -->
+
 A personal blog hosting two content types on GitHub Pages: dated journal
 entries and structured recipes. Live at
 [omnomnomicon.arkavian.house](https://omnomnomicon.arkavian.house).
