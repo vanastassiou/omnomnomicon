@@ -1,0 +1,22 @@
+---
+layout: post
+---
+
+{%- comment -%}
+  Renders the structured ingredient list from front matter, then the method
+  (the Markdown body). No JavaScript. `count` items drop the unit word so
+  "3 count eggs" reads as "3 eggs".
+{%- endcomment -%}
+{% if page.ingredients %}
+<section class="recipe-ingredients">
+  <h2>Ingredients</h2>
+  {% if page.servings %}<p class="recipe-servings"><em>Serves {{ page.servings }}</em></p>{% endif %}
+  <ul>
+    {% for ing in page.ingredients %}
+    <li>{% if ing.unit == "count" %}{{ ing.amount }} {{ ing.name }}{% else %}{{ ing.amount }} {{ ing.unit }} {{ ing.name }}{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{{ content }}
