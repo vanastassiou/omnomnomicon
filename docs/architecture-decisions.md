@@ -90,7 +90,11 @@ the layouts and front matter defaults and complicate per-type validation.
 
 Consequences: Each type gets its own layout defaults and permalink scheme.
 Recipes have both their own `/recipes/` index and a presence in the shared
-home feed (ADR 7).
+home feed (ADR 7). Recipes may be organized into subfolders under `_recipes/`;
+Jekyll collections recurse, so nested files are collected automatically. The
+recipe permalink is `/recipes/:name/`, so URLs stay flat and subfolders serve
+only as filing. The tradeoff is that recipe basenames must be unique across all
+folders, which the validator enforces (ADR 8).
 
 ## ADR 5: Structured ingredient data over prose
 
@@ -175,7 +179,12 @@ the Action is the check that cannot be dodged. The hook is tracked in
 `.githooks/` and activated with `git config core.hooksPath .githooks`, which a
 fresh clone must run once. The script reads its allowed-unit vocabulary from
 `_data/units.yml` so the rule lives in one place. It adds no new dependency
-beyond the Ruby that Jekyll already requires.
+beyond the Ruby that Jekyll already requires. The validator recurses into
+recipe subfolders: its `--all` mode (used by CI) discovers files with
+`Dir.glob("_recipes/**/*.md")` rather than a shell glob, which would silently
+skip nested files. `--all` mode also checks that recipe basenames are unique,
+because the flat permalink (ADR 4) makes two same-named files collide at one
+URL.
 
 ## ADR 9: Ruby toolchain and gem management
 

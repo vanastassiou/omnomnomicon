@@ -21,11 +21,4 @@ jobs:
         with:
           ruby-version: .ruby-version
       - name: Validate all recipes
-        run: |
-          shopt -s nullglob
-          files=(_recipes/*.md)
-          if [ ${#files[@]} -eq 0 ]; then
-            echo "No recipes to validate."
-            exit 0
-          fi
-          ruby bin/validate_recipes.rb "${files[@]}"
+        run: ruby bin/validate_recipes.rb --all

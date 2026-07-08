@@ -4,10 +4,11 @@
 # Validates recipe front matter against the canonical schema.
 #
 # Usage:
-#   bin/validate_recipes.rb [FILE ...]
-#     With file arguments : validates exactly those files (used by CI).
-#     With no arguments    : validates staged _recipes/*.md files (used by the
-#                            pre-commit hook, via `git diff --cached`).
+#   bin/validate_recipes.rb --all       validates every _recipes/**/*.md file
+#                                        (used by CI; recurses into subfolders).
+#   bin/validate_recipes.rb [FILE ...]   validates exactly those files.
+#   bin/validate_recipes.rb              validates staged recipe files (used by
+#                                        the pre-commit hook, via git diff).
 #
 # Exit status: 0 if every file is valid, 1 otherwise. Each problem prints as
 # "path: field: message".
@@ -24,8 +25,15 @@ unless ALLOWED_UNITS.is_a?(Array) && !ALLOWED_UNITS.empty?
   exit 1
 end
 
+# Display a repo-relative path regardless of how the file was passed in.
+def display(path)
+  path.sub(%r{\A#{Regexp.escape(ROOT)}/}, "")
+end
+
+# Staged recipe files, recursing into subfolders. Git's default pathspec `*`
+# matches `/`, so `:(glob)` with `**` is used to make the intent explicit.
 def staged_recipe_files
-  out = `git diff --cached --name-only --diff-filter=ACM -- '_recipes/*.md'`
+  out = `git diff --cached --name-only --diff-filter=ACM -- ':(glob)_recipes/**/*.md'`
   out.split("\n").map(&:strip).reject(&:empty?)
 end
 
@@ -40,14 +48,37 @@ def front_matter(path)
   YAML.safe_load(parts[1], permitted_classes: [Date, Time])
 end
 
-files = ARGV.empty? ? staged_recipe_files : ARGV
+mode_all = ARGV.delete("--all")
+files =
+  if mode_all
+    Dir.glob(File.join(ROOT, "_recipes", "**", "*.md")).sort
+  elsif !ARGV.empty?
+    ARGV
+  else
+    staged_recipe_files
+  end
+
 exit 0 if files.empty?
 
 errors = []
 
+# With flat permalinks, two recipes sharing a basename collide at the same URL.
+# Only the full set (--all) can prove uniqueness, so the check runs there.
+if mode_all
+  by_slug = Hash.new { |h, k| h[k] = [] }
+  files.each { |p| by_slug[File.basename(p, ".md")] << p }
+  by_slug.each do |slug, paths|
+    next if paths.length == 1
+
+    listed = paths.map { |p| display(p) }.join(", ")
+    errors << "#{display(paths.first)}: slug: basename '#{slug}' is not unique; " \
+              "collides at /recipes/#{slug}/ (#{listed})"
+  end
+end
+
 files.each do |path|
   unless File.file?(path)
-    errors << "#{path}: file: not found"
+    errors << "#{display(path)}: file: not found"
     next
   end
 
@@ -55,41 +86,41 @@ files.each do |path|
     begin
       front_matter(path)
     rescue Psych::SyntaxError => e
-      errors << "#{path}: front_matter: invalid YAML (#{e.message})"
+      errors << "#{display(path)}: front_matter: invalid YAML (#{e.message})"
       next
     end
 
   unless fm.is_a?(Hash)
-    errors << "#{path}: front_matter: missing or not a mapping"
+    errors << "#{display(path)}: front_matter: missing or not a mapping"
     next
   end
 
   unless fm["title"].is_a?(String) && !fm["title"].to_s.strip.empty?
-    errors << "#{path}: title: must be a non-empty String"
+    errors << "#{display(path)}: title: must be a non-empty String"
   end
 
-  errors << "#{path}: servings: must be a Number" unless fm["servings"].is_a?(Numeric)
+  errors << "#{display(path)}: servings: must be a Number" unless fm["servings"].is_a?(Numeric)
 
   ingredients = fm["ingredients"]
   if !ingredients.is_a?(Array) || ingredients.empty?
-    errors << "#{path}: ingredients: must be a non-empty Array"
+    errors << "#{display(path)}: ingredients: must be a non-empty Array"
   else
     ingredients.each_with_index do |ing, i|
       loc = "ingredients[#{i}]"
       unless ing.is_a?(Hash)
-        errors << "#{path}: #{loc}: must be a mapping"
+        errors << "#{display(path)}: #{loc}: must be a mapping"
         next
       end
 
-      errors << "#{path}: #{loc}.amount: must be a Number" unless ing["amount"].is_a?(Numeric)
+      errors << "#{display(path)}: #{loc}.amount: must be a Number" unless ing["amount"].is_a?(Numeric)
 
       unit = ing["unit"]
       unless ALLOWED_UNITS.include?(unit)
-        errors << "#{path}: #{loc}.unit: #{unit.inspect} not in [#{ALLOWED_UNITS.join(', ')}]"
+        errors << "#{display(path)}: #{loc}.unit: #{unit.inspect} not in [#{ALLOWED_UNITS.join(', ')}]"
       end
 
       unless ing["name"].is_a?(String) && !ing["name"].to_s.strip.empty?
-        errors << "#{path}: #{loc}.name: must be a non-empty String"
+        errors << "#{display(path)}: #{loc}.name: must be a non-empty String"
       end
     end
   end

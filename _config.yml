@@ -20,7 +20,10 @@ words_per_minute: 200
 collections:
   recipes:
     output: true
-    permalink: /recipes/:path/
+    # Flat URLs: subfolders under _recipes/ organize files but do not appear in
+    # the URL. Recipe basenames must therefore be unique (enforced by the
+    # validator's --all mode).
+    permalink: /recipes/:name/
 
 # --- Plugins ------------------------------------------------------------
 # All whitelisted on GitHub Pages.

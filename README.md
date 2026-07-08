@@ -74,6 +74,11 @@ entries and structured recipes. Live at
 4. Use only these units: `g`, `kg`, `ml`, `l`, `count`. `count` is for
    unitless items such as eggs and cloves.
 
+Recipes may be organized into subfolders (for example
+`_recipes/desserts/banana-bread.md`). Subfolders are for filing only: URLs are
+flat (`/recipes/banana-bread/`), so every recipe basename must be unique across
+all folders. The validator's `--all` mode enforces this.
+
 ## Validation
 
 Recipe front matter is validated by `bin/validate_recipes.rb`:
@@ -88,10 +93,10 @@ Recipe front matter is validated by `bin/validate_recipes.rb`:
 - In CI, `.github/workflows/validate.yml` runs the same script on push and
   pull requests. The CI check is the non-skippable gate.
 
-Run it manually against every recipe:
+Run it manually against every recipe (recurses into subfolders):
 
 ```bash
-ruby bin/validate_recipes.rb _recipes/*.md
+ruby bin/validate_recipes.rb --all
 ```
 
 ## Deployment
