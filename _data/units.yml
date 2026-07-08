@@ -1,0 +1,7 @@
+# Canonical allowed unit vocabulary (metric only). Single source of truth,
+# read by bin/validate_recipes.rb. `count` is the unitless escape hatch.
+- g
+- kg
+- ml
+- l
+- count
