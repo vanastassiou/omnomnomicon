@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Validates staged recipe files before allowing a commit. The same script runs
+# in CI (see .github/workflows/validate.yml) as the non-skippable gate.
+set -euo pipefail
+
+root="$(git rev-parse --show-toplevel)"
+
+if ! command -v ruby >/dev/null 2>&1; then
+  echo "pre-commit: ruby not found; cannot validate recipes." >&2
+  echo "  Install it: sudo apt-get install -y ruby-full" >&2
+  exit 1
+fi
+
+exec ruby "$root/bin/validate_recipes.rb"
