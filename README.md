@@ -88,6 +88,9 @@ entries and structured recipes. Live at
 4. Store amounts as structured `amount` + `unit` + `name`, never as prose.
 5. Use only these units: `g`, `kg`, `ml`, `l`, `count`. `count` is for
    unitless items such as eggs and cloves.
+6. Write the method as short steps, one primary action each. Group a
+   multi-phase recipe under `### Phase name` subheadings; a short single-phase
+   recipe can be one flat numbered list.
 
 Recipes may be organized into subfolders (for example
 `_recipes/desserts/banana-bread.md`). Subfolders are for filing only: URLs are

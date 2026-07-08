@@ -18,5 +18,9 @@ ingredients:
 
 _Makes about 2 cups (480 ml)._
 
-1. Using a vegetable peeler, remove 5 strips of zest from the orange. Juice the orange, measure out ¼ cup (60 ml), and reserve any extra for another use. Transfer the juice to a medium saucepan and add the orange zest strips, honey, cardamom, and 2 cups (480 ml) water. Set over medium-high heat and stir to dissolve the honey. Bring to a gentle boil, then reduce the heat to low and simmer gently, stirring occasionally, until thick and reduced by about ¼ cup (60 ml), 10 to 15 minutes.
-2. Remove the pan from the heat and let cool to room temperature. Strain the syrup through a fine-mesh sieve or cheesecloth into an airtight container and discard the orange zest strips. Store refrigerated for up to 1 month.
+1. Using a vegetable peeler, remove 5 strips of zest from the orange.
+2. Juice the orange, measure out ¼ cup (60 ml), and reserve any extra for another use.
+3. Transfer the juice to a medium saucepan and add the zest strips, honey, cardamom, and 2 cups (480 ml) water. Set over medium-high heat and stir to dissolve the honey.
+4. Bring to a gentle boil, then reduce the heat to low and simmer gently, stirring occasionally, until thick and reduced by about ¼ cup (60 ml), 10 to 15 minutes.
+5. Remove from the heat and let cool to room temperature.
+6. Strain through a fine-mesh sieve or cheesecloth into an airtight container and discard the zest. Store refrigerated for up to 1 month.

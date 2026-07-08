@@ -18,5 +18,12 @@ ingredients:
 
 _Makes one 9½-inch (24 cm) tart._
 
-1. Pour the warm citron curd into the cooled tart shell and use an offset spatula to evenly spread it to the edges. Place a piece of plastic wrap directly on the surface of the tart and refrigerate for at least 4 hours or overnight to set.
-2. When ready to serve, carefully remove the plastic wrap. Dollop with whipped cream, decorate with lemon slices, and sprinkle with lemon zest, if desired. Enjoy immediately.
+### Assemble
+
+1. Pour the warm citron curd into the cooled tart shell and spread it evenly to the edges with an offset spatula.
+2. Place a piece of plastic wrap directly on the surface and refrigerate for at least 4 hours or overnight to set.
+
+### Serve
+
+1. Carefully remove the plastic wrap.
+2. Dollop with whipped cream, decorate with lemon slices, and sprinkle with lemon zest, if desired. Enjoy immediately.

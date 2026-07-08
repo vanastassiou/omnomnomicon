@@ -15,4 +15,6 @@ ingredients:
 
 _Makes about 1 cup (240 ml)._
 
-In a small heatproof bowl, combine the cocoa powder and boiling water and whisk until the cocoa powder is fully incorporated and there are no lumps. Store refrigerated in an airtight container for up to 2 days.
+1. In a small heatproof bowl, combine the cocoa powder and boiling water.
+2. Whisk until the cocoa is fully incorporated and there are no lumps.
+3. Store refrigerated in an airtight container for up to 2 days.

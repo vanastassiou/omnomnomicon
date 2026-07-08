@@ -33,8 +33,22 @@ ingredients:
 
 _Makes 24 chouquettes._
 
-1. Set a rack in the center of the oven and preheat to 425°F (218°C). Line a sheet pan with parchment paper, then lightly coat the paper with vegetable oil spray.
-2. In a medium saucepan, combine the butter, granulated sugar, salt, and ½ cup (120 ml) water and bring to a boil over medium heat, keeping a close eye. Remove the pan from the heat, add the flour, and stir vigorously with a wooden spoon until fully incorporated. Return the pan to very low heat and cook, stirring, for about 1 minute, or until the dough seems drier and no longer sticks to the sides of the pan.
-3. Transfer the mixture to a stand mixer fitted with the paddle attachment. With the mixer running on low, add the eggs, 1 at a time, scraping down the sides of the bowl after each addition and mixing until the eggs are fully incorporated, about 2 minutes total. Transfer to a piping bag fitted with a medium round pastry tip. (Alternatively, spoon the filling into a resealable plastic bag and snip off a bottom corner so there is a small opening.) Pipe 1-inch (2.5 cm) rounds of dough, about 1 inch (2.5 cm) apart, onto the prepared sheet pan.
-4. Using a pastry brush, lightly brush a bit of milk on each chouquette, gently pressing to smooth out any pointy tips that remain from piping. Sprinkle generously with pearl sugar.
-5. Transfer to the oven, then immediately reduce the temperature to 375°F (190°C) and bake for 12 minutes. Rotate the sheet pan as needed for even baking and bake until the chouquettes are golden brown on top and feel hollow inside, 7 to 10 minutes more. Let cool on the sheet pan for at least 15 minutes, then serve warm or at room temperature.
+### Make the choux paste
+
+1. Set a rack in the center of the oven and preheat to 425°F (218°C). Line a sheet pan with parchment paper and lightly coat with vegetable oil spray.
+2. In a medium saucepan, combine the butter, granulated sugar, salt, and ½ cup (120 ml) water. Bring to a boil over medium heat, keeping a close eye.
+3. Remove from the heat, add the flour, and stir vigorously with a wooden spoon until fully incorporated.
+4. Return to very low heat and cook, stirring, about 1 minute, until the dough is drier and no longer sticks to the pan.
+5. Transfer to a stand mixer fitted with the paddle attachment. With the mixer on low, add the eggs one at a time, scraping down the bowl after each, until fully incorporated, about 2 minutes total.
+
+### Pipe and top
+
+1. Transfer the paste to a piping bag fitted with a medium round tip. (Or spoon it into a resealable plastic bag and snip off a bottom corner.)
+2. Pipe 1-inch (2.5 cm) rounds, about 1 inch (2.5 cm) apart, onto the prepared sheet pan.
+3. Lightly brush each with a bit of milk, gently pressing to smooth any pointy tips. Sprinkle generously with pearl sugar.
+
+### Bake
+
+1. Transfer to the oven, immediately reduce the temperature to 375°F (190°C), and bake for 12 minutes.
+2. Rotate the pan as needed and bake until golden brown on top and hollow-feeling inside, 7 to 10 minutes more.
+3. Cool on the pan for at least 15 minutes, then serve warm or at room temperature.

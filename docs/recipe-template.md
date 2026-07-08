@@ -27,7 +27,12 @@ ingredients:
     name: eggs
 ---
 
-Write the method here as Markdown.
+Write the method as Markdown. Keep each step to one primary action. For a
+multi-phase recipe, group the steps under `### Phase name` subheadings
+(numbering restarts under each); a short single-phase recipe can be one flat
+numbered list.
+
+### Phase name
 
 1. First step.
 2. Second step.
