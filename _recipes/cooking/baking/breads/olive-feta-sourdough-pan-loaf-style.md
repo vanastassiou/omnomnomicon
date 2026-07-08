@@ -30,7 +30,6 @@ ingredients:
     amount: 80
     unit: g
 ---
-
 _Makes one pan loaf._
 
 1. Mix the flours, water, and starter. Rest 30 to 45 minutes for the autolyse.
@@ -39,3 +38,4 @@ _Makes one pan loaf._
 4. Do 2 to 3 more folds, then pre-shape and rest 20 minutes.
 5. Do the final shape and proof 2 to 4 hours, or overnight in the fridge.
 6. Bake at 230°C (445°F) for 20 minutes covered, then 20 to 25 minutes uncovered.
+

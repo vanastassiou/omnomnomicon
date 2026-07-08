@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Marmalade
-source: Original recipe
-date: 2024-02-17T00:00:00.000Z
+source: "Original recipe"
+date: 2024-02-17
 servings: 30
 ingredients:
   - name: citrus fruit
@@ -42,6 +42,7 @@ This is a ratio method rather than a fixed recipe. The amounts below are represe
 - You can mix in other fruits at the juicing stage, but keep any low-pectin fruit under 25% of the total fruit volume to avoid a poor set.
 - Add spices at the beginning of cooking; use whole spices where possible for freshness and easy removal.
 - Add herbs at the end: take the pot off the heat and let them steep 10 minutes before removing.
+
 
 
 

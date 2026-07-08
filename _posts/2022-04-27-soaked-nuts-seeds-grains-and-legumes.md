@@ -1,9 +1,7 @@
 ---
-title: 'Soaked nuts, seeds, grains, and legumes'
-date: 2022-04-27T00:00:00.000Z
-excerpt: >-
-  Why and how to soak nuts, seeds, grains, and legumes to reduce anti-nutrients,
-  with soak times and sprouting steps.
+title: "Soaked nuts, seeds, grains, and legumes"
+date: 2022-04-27
+excerpt: "Why and how to soak nuts, seeds, grains, and legumes to reduce anti-nutrients, with soak times and sprouting steps."
 ---
 *Adapted from *Ferment* by Holly Davis*
 

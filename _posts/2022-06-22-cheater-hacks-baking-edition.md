@@ -1,9 +1,7 @@
 ---
-title: 'Cheater hacks: baking edition'
-date: 2022-06-22T00:00:00.000Z
-excerpt: >-
-  Shortcuts for upgrading boxed mixes and quick baking: mix-in swaps for
-  brownies, cakes, cookies, pie crust, and icing.
+title: "Cheater hacks: baking edition"
+date: 2022-06-22
+excerpt: "Shortcuts for upgrading boxed mixes and quick baking: mix-in swaps for brownies, cakes, cookies, pie crust, and icing."
 ---
 -   Boxed brownie or chocolate cake mix enhancers:
 

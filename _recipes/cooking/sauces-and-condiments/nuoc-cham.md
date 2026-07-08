@@ -21,7 +21,6 @@ ingredients:
     amount: 1
     unit: count
 ---
-
 _Makes about 120 mL._
 
 1. Whisk all ingredients together until well combined. Use 1 to 2 chiles depending on how much heat you want.
@@ -30,3 +29,4 @@ _Makes about 120 mL._
 
 - Refrigerate in an airtight container up to 3 days.
 - Serve as a dipping sauce for fried spring rolls, a topping for noodle and rice salads or grilled meats and fish, or a brightener for soups, greens, and cooked vegetables.
+

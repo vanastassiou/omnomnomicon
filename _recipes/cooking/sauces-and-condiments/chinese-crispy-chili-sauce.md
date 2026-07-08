@@ -1,8 +1,8 @@
 ---
 layout: recipe
 title: Chinese Crispy Chile Sauce
-source: Adapted from The New York Times recipe by Genevieve Ko
-date: 2022-02-24T00:00:00.000Z
+source: "Adapted from The New York Times recipe by Genevieve Ko"
+date: 2022-02-24
 servings: 10
 ingredients:
   - name: vegetable oil
@@ -23,7 +23,7 @@ ingredients:
   - name: sesame seeds
     amount: 45
     unit: mL
-  - name: 'Sichuan peppercorns, coarsely ground (optional)'
+  - name: Sichuan peppercorns, coarsely ground (optional)
     amount: 5
     unit: mL
 ---
