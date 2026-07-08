@@ -8,10 +8,10 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 
 # --- Author -------------------------------------------------------------
 author:
-  name: "V Anastassiou"
+  name: "V"
 
 # --- Reading ------------------------------------------------------------
-date_format: "%B %-d, %Y"
+date_format: '%Y-%m-%d'
 read_time: true
 words_per_minute: 200
 
