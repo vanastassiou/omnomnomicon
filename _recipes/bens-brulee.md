@@ -33,7 +33,7 @@ _Serves 6._
 2. In a small saucepan, combine cream with vanilla seeds and pod. Bring to a boil over medium heat, keeping a close eye.
 3. Remove from heat and whisk in vanilla extract.
 4. In a teakettle, bring 960 mL water to a boil, then remove from heat.
-5. In a stand mixer fitted with whisk attachment, whip egg yolks, ⅓ cup (50 g) of sugar, and salt on medium until pale yellow, about 2 minutes.
+5. In a stand mixer fitted with whisk attachment, whip egg yolks, 50 g of sugar, and salt on medium until pale yellow, about 2 minutes.
 6. Discard vanilla pod from cream. With mixer on medium-low, slowly stream in hot cream, scraping down bowl as needed.
 
 ### Bake

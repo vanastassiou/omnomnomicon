@@ -25,7 +25,7 @@ ingredients:
     unit: g
 ---
 
-_Makes about 3 cups (690 g); filling for one Tarte au Citron._
+_Makes about 690 g; filling for one Tarte au Citron._
 
 1. In a medium saucepan, combine milk and lemon juice. Bring to a boil over medium heat, keeping a close eye.
 2. In a medium bowl, whisk together egg yolks and sugar until combined. Whisk in cornstarch until fully incorporated.

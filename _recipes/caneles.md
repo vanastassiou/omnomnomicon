@@ -38,11 +38,11 @@ _Makes 12 canelés._
 
 ### Make the batter
 
-1. In a small saucepan, combine milk, ¾ cup (136 g) of sugar, and butter. Scrape in vanilla seeds and add pod.
+1. In a small saucepan, combine milk, 136 g of sugar, and butter. Scrape in vanilla seeds and add pod.
 2. Bring to a boil over medium-high heat, keeping a close eye.
 3. Remove from heat, add flour, and stir vigorously with a wooden spoon until fully incorporated.
 4. Return to very low heat and cook, stirring, about 1 minute, until dough is drier and no longer sticks to pan.
-5. Meanwhile, in a stand mixer fitted with whisk attachment, whip egg yolks, ⅔ cup (136 g) of sugar, rum, and salt on medium until pale yellow, about 2 minutes.
+5. Meanwhile, in a stand mixer fitted with whisk attachment, whip egg yolks, 136 g of sugar, rum, and salt on medium until pale yellow, about 2 minutes.
 6. Discard vanilla pod from milk mixture. With mixer on low, slowly add hot milk and whip until fully combined, 2 to 3 minutes.
 7. Gradually add flour in 4 batches, whipping until fully combined after each addition, about 4 minutes total.
 8. Pour batter through a sieve into a 960 mL spouted measuring cup.
