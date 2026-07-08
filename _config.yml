@@ -55,5 +55,6 @@ exclude:
   - vendor
   - bin
   - .githooks
+  - docs
   - plan.md
   - README.md
