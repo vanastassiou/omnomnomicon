@@ -1,0 +1,31 @@
+name: Validate recipes
+
+on:
+  push:
+    paths:
+      - "_recipes/**"
+      - "_data/units.yml"
+      - "bin/validate_recipes.rb"
+  pull_request:
+    paths:
+      - "_recipes/**"
+      - "_data/units.yml"
+      - "bin/validate_recipes.rb"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+      - name: Validate all recipes
+        run: |
+          shopt -s nullglob
+          files=(_recipes/*.md)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No recipes to validate."
+            exit 0
+          fi
+          ruby bin/validate_recipes.rb "${files[@]}"
