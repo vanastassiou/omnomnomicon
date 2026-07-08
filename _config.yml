@@ -1,0 +1,59 @@
+# --- Site ---------------------------------------------------------------
+locale: "en-CA"
+title: "Omnomnomicon"
+description: "Journal entries and recipes."
+url: "https://omnomnomicon.arkavian.house"
+baseurl: ""
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+
+# --- Author -------------------------------------------------------------
+author:
+  name: "V Anastassiou"
+
+# --- Reading ------------------------------------------------------------
+date_format: "%B %-d, %Y"
+read_time: true
+words_per_minute: 200
+
+# --- Collections --------------------------------------------------------
+# Recipes are a dedicated output collection alongside standard _posts.
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/
+
+# --- Plugins ------------------------------------------------------------
+# All whitelisted on GitHub Pages.
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# --- Front matter defaults ---------------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: false
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: recipe
+      comments: false
+      share: false
+
+# --- Build --------------------------------------------------------------
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - bin
+  - .githooks
+  - plan.md
+  - README.md
