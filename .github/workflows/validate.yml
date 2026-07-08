@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3"
+          ruby-version: .ruby-version
       - name: Validate all recipes
         run: |
           shopt -s nullglob
