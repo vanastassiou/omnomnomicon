@@ -50,9 +50,18 @@ entries and structured recipes. Live at
 
 ## Writing a recipe
 
-1. Copy the stub: `cp docs/recipe-template.md _recipes/slug.md` (a subfolder is
-   fine). The filename without `.md` is the URL slug and must be unique across
-   all recipe folders.
+1. Generate a dated stub with the helper (recommended):
+
+   ```bash
+   ruby bin/new_recipe.rb "Lemon Drizzle Cake"          # -> _recipes/lemon-drizzle-cake.md
+   ruby bin/new_recipe.rb "Focaccia" mains              # -> _recipes/mains/focaccia.md
+   ```
+
+   It stamps today's date, derives the slug from the title, carries the image
+   syntax through as comments, and refuses to create a slug that collides with
+   an existing recipe. To copy by hand instead:
+   `cp docs/recipe-template.md _recipes/slug.md`.
+
 2. Fill in the front matter following the schema:
 
    ```yaml

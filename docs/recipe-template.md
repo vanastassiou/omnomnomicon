@@ -25,3 +25,12 @@ Write the method here as Markdown.
 
 1. First step.
 2. Second step.
+
+<!--
+  Inline image example. Store the file under assets/images/ and reference it
+  with a root-absolute path. Always write real alt text in the brackets.
+  Delete this comment or replace it with a real image line:
+
+  ![Batter in the loaf tin](/assets/images/recipe-slug-step.jpg)
+-->
+
