@@ -251,3 +251,24 @@ work because `baseurl` is empty (ADR 10), and the theme runs front matter image
 paths through `relative_url`, so they survive a future `baseurl` change. Since
 recipes inherit the `post` layout (ADR 3), the same `image` front matter works
 for both content types.
+
+## ADR 12: Recipes require a source attribution
+
+Status: Accepted
+
+Context: Recipes are rarely original. Attribution is both a courtesy and a
+practical way to trace a recipe back to its origin, but front matter fields are
+optional by default, so nothing forces it.
+
+Decision: Every recipe must carry a non-empty `source` field. Its value is free
+text: a book and page, a URL, or any other attribution such as "Family recipe".
+
+Alternatives considered: A structured source (separate title and URL fields)
+was rejected as too rigid for the range of real sources. Making the field
+optional was rejected because it does not guarantee attribution.
+
+Consequences: The validator (ADR 8) treats a missing or empty `source` as an
+error, so an unsourced recipe cannot pass the pre-commit hook or CI. The recipe
+layout renders the source; a value containing `://` is shown as a link, and any
+other value as plain text. The stub template and `bin/new_recipe.rb` include the
+field so new recipes prompt for it.

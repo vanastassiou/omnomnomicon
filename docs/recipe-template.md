@@ -5,6 +5,12 @@
 # Fill in the values and delete these comment lines.
 layout: recipe
 title: Recipe Title
+source:                               # REQUIRED before committing: fill this in.
+                                      # A book, a URL, or any attribution. Examples:
+                                      #   source: "Nigella Lawson, How to Eat, p.212"
+                                      #   source: https://example.com/the-recipe
+                                      #   source: "Family recipe, adapted"
+                                      # Left empty on purpose: validation fails until sourced.
 date: 2026-01-01            # YYYY-MM-DD; orders the home feed
 servings: 4                # a number
 # Optional header + feed image. See the README "Images" section.

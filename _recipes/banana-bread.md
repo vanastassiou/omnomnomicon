@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: Banana Bread
+source: Family recipe
 date: 2026-01-02
 servings: 4
 ingredients:

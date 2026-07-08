@@ -99,6 +99,10 @@ files.each do |path|
     errors << "#{display(path)}: title: must be a non-empty String"
   end
 
+  unless fm["source"].is_a?(String) && !fm["source"].to_s.strip.empty?
+    errors << "#{display(path)}: source: must be a non-empty String (book, URL, or other attribution)"
+  end
+
   errors << "#{display(path)}: servings: must be a Number" unless fm["servings"].is_a?(Numeric)
 
   ingredients = fm["ingredients"]

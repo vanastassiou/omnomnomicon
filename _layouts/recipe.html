@@ -3,10 +3,18 @@ layout: post
 ---
 
 {%- comment -%}
-  Renders the structured ingredient list from front matter, then the method
-  (the Markdown body). No JavaScript. `count` items drop the unit word so
-  "3 count eggs" reads as "3 eggs".
+  Renders the source attribution, the structured ingredient list, then the
+  method (the Markdown body). No JavaScript. `count` items drop the unit word
+  so "3 count eggs" reads as "3 eggs". A source that looks like a URL is
+  linked; anything else is shown as plain text.
 {%- endcomment -%}
+{% if page.source %}
+<p class="recipe-source"><em>Source:
+  {%- if page.source contains "://" %} <a href="{{ page.source }}">{{ page.source }}</a>
+  {%- else %} {{ page.source }}
+  {%- endif %}</em></p>
+{% endif %}
+
 {% if page.ingredients %}
 <section class="recipe-ingredients">
   <h2>Ingredients</h2>

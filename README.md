@@ -68,6 +68,7 @@ entries and structured recipes. Live at
    ---
    layout: recipe
    title: Banana Bread
+   source: "Nigella Lawson, How to Eat, p.212"   # or a URL, or any attribution
    date: 2026-01-02
    servings: 4
    ingredients:
@@ -81,8 +82,11 @@ entries and structured recipes. Live at
    Method goes in the body as Markdown.
    ```
 
-3. Store amounts as structured `amount` + `unit` + `name`, never as prose.
-4. Use only these units: `g`, `kg`, `ml`, `l`, `count`. `count` is for
+3. Provide a `source`: every recipe must be attributed. It is any non-empty
+   string (a book and page, a URL, "Family recipe", and so on). A `source` that
+   looks like a URL renders as a link. Validation fails without it.
+4. Store amounts as structured `amount` + `unit` + `name`, never as prose.
+5. Use only these units: `g`, `kg`, `ml`, `l`, `count`. `count` is for
    unitless items such as eggs and cloves.
 
 Recipes may be organized into subfolders (for example
