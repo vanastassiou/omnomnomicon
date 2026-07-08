@@ -3,7 +3,6 @@
 This document records the significant architectural decisions for the blog,
 each with the context that forced it, the decision itself, the alternatives
 rejected, and the consequences accepted. It is the durable record of *why*.
-For the working build plan and current status, see `plan.md`.
 
 Each decision has a status: Accepted, Superseded, or Deferred. Decisions are
 numbered and append-only; to reverse one, add a new decision that supersedes
