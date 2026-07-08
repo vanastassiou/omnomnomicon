@@ -229,3 +229,26 @@ and an empty `baseurl`. A `CNAME` file at the repository root holds the bare
 domain. DNS needs a `CNAME` record for host `omnomnomicon` pointing at
 `vanastassiou.github.io`. The GitHub repository's Pages settings set the custom
 domain and enforce HTTPS once the certificate provisions.
+
+## ADR 11: Images committed in-repository
+
+Status: Accepted
+
+Context: Posts and recipes need images. Images must be served for $0 (ADR 1)
+with no external account or service that has a paid dependency.
+
+Decision: Commit images to the repository under `assets/images/` and let
+GitHub Pages serve them. Reference them with root-absolute paths
+(`/assets/images/...`). Use the theme's `image` front matter for the header
+image and feed thumbnail.
+
+Alternatives considered: An external image host or CDN adds an account and a
+possible paid dependency. Git LFS is rejected because GitHub Pages does not
+serve LFS files; an LFS-tracked image would render as a broken link.
+
+Consequences: The repository carries binary assets, so images should be
+resized before committing to keep the repository small. Root-absolute paths
+work because `baseurl` is empty (ADR 10), and the theme runs front matter image
+paths through `relative_url`, so they survive a future `baseurl` change. Since
+recipes inherit the `post` layout (ADR 3), the same `image` front matter works
+for both content types.

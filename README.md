@@ -50,8 +50,10 @@ entries and structured recipes. Live at
 
 ## Writing a recipe
 
-1. Create `_recipes/slug.md`.
-2. Add front matter following the schema:
+1. Copy the stub: `cp docs/recipe-template.md _recipes/slug.md` (a subfolder is
+   fine). The filename without `.md` is the URL slug and must be unique across
+   all recipe folders.
+2. Fill in the front matter following the schema:
 
    ```yaml
    ---
@@ -78,6 +80,43 @@ Recipes may be organized into subfolders (for example
 `_recipes/desserts/banana-bread.md`). Subfolders are for filing only: URLs are
 flat (`/recipes/banana-bread/`), so every recipe basename must be unique across
 all folders. The validator's `--all` mode enforces this.
+
+## Images
+
+Images are committed to the repository under `assets/images/` and served by
+GitHub Pages. There is no external image host, which keeps the $0 constraint.
+
+Do not use Git LFS: GitHub Pages does not serve LFS files, so an LFS-tracked
+image would render as a broken link. Keep source images reasonably small
+(resize before committing).
+
+Three ways to use an image, all working for both journal posts and recipes:
+
+1. Header image at the top of the page. Add to front matter:
+
+   ```yaml
+   image:
+     path: /assets/images/banana-bread.jpg
+     caption: "Optional caption, Markdown allowed"
+   ```
+
+2. Feed thumbnail on the home page. Add a `thumbnail` under `image`:
+
+   ```yaml
+   image:
+     path: /assets/images/banana-bread.jpg
+     thumbnail: /assets/images/banana-bread.jpg
+   ```
+
+3. Inline in the body, with standard Markdown:
+
+   ```markdown
+   ![Sliced banana bread](/assets/images/banana-bread-sliced.jpg)
+   ```
+
+Paths are absolute from the site root (`/assets/...`). This works because
+`baseurl` is empty (ADR 10); the theme also passes front matter image paths
+through `relative_url`, so they stay correct if `baseurl` ever changes.
 
 ## Validation
 
