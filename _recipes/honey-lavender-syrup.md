@@ -5,19 +5,19 @@ source: "Maman: The Cookbook, Elisa Marshall & Benjamin Sormonte with Lauren Sal
 date: 2026-07-08
 servings: 16
 ingredients:
-  - amount: 315
-    unit: ml
-    name: honey
-  - amount: 20
+  - name: honey
+    amount: 315
+    unit: mL
+  - name: dried lavender flowers
+    amount: 20
     unit: g
-    name: dried lavender flowers
-  - amount: 480
-    unit: ml
-    name: boiling water
+  - name: boiling water
+    amount: 480
+    unit: mL
 ---
 
-_Makes about 2 cups (480 ml)._
+_Makes about 480 mL._
 
-1. In a heatproof medium bowl, combine the honey, lavender, and boiling water. Stir until the honey dissolves and the lavender floats to the top.
+1. In a heatproof medium bowl, combine honey, lavender, and boiling water. Stir until honey dissolves and lavender floats to top.
 2. Let stand for at least 1 hour.
-3. Strain through a fine-mesh sieve or cheesecloth into an airtight container and discard the lavender. Store refrigerated for up to 2 weeks.
+3. Strain through a fine-mesh sieve or cheesecloth into an airtight container and discard lavender. Store refrigerated for up to 2 weeks.

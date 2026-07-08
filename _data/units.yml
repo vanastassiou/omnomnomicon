@@ -2,6 +2,6 @@
 # read by bin/validate_recipes.rb. `count` is the unitless escape hatch.
 - g
 - kg
-- ml
-- l
+- mL
+- L
 - count

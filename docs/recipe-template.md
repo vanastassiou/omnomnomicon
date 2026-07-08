@@ -19,12 +19,12 @@ servings: 4                # a number
 #   thumbnail: /assets/images/recipe-slug.jpg  # small image in the home feed
 #   caption: "Optional caption, Markdown allowed"
 ingredients:
-  - amount: 250            # a number
-    unit: g                # one of: g, kg, ml, l, count
-    name: flour
-  - amount: 2
+  - name: flour            # list fields in this order: name, amount, unit
+    amount: 250            # a number
+    unit: g                # one of: g, kg, mL, L, count
+  - name: eggs
+    amount: 2
     unit: count            # 'count' = unitless (eggs, cloves); no unit word is shown
-    name: eggs
 ---
 
 Write the method as Markdown. Keep each step to one primary action. For a

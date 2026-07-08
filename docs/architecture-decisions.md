@@ -103,7 +103,7 @@ Context: Ingredients could be written as free prose or as structured data. The
 choice determines whether later features can read amounts without re-parsing
 old content.
 
-Decision: Store each ingredient as separate `amount`, `unit`, and `name`
+Decision: Store each ingredient as separate `name`, `amount`, and `unit`
 fields in front matter, never as prose.
 
 Alternatives considered: Prose ingredients are faster to type but cannot be
@@ -124,7 +124,7 @@ Context: An earlier draft allowed a mixed vocabulary (`oz`, `lb`, `g`, `kg`,
 imperial-to-metric conversion.
 
 Decision: Restrict the unit vocabulary to metric plus a unitless escape hatch:
-`g`, `kg`, `ml`, `l`, `count`. Never perform unit conversion.
+`g`, `kg`, `mL`, `L`, `count`. Never perform unit conversion.
 
 Alternatives considered: Supporting both measurement systems with conversion
 would need per-ingredient density data for any volume-to-weight conversion

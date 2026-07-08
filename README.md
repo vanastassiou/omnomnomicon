@@ -72,12 +72,12 @@ entries and structured recipes. Live at
    date: 2026-01-02
    servings: 4
    ingredients:
-     - amount: 250
+     - name: flour
+       amount: 250
        unit: g
-       name: flour
-     - amount: 3
+     - name: eggs
+       amount: 3
        unit: count
-       name: eggs
    ---
    Method goes in the body as Markdown.
    ```
@@ -85,8 +85,8 @@ entries and structured recipes. Live at
 3. Provide a `source`: every recipe must be attributed. It is any non-empty
    string (a book and page, a URL, "Family recipe", and so on). A `source` that
    looks like a URL renders as a link. Validation fails without it.
-4. Store amounts as structured `amount` + `unit` + `name`, never as prose.
-5. Use only these units: `g`, `kg`, `ml`, `l`, `count`. `count` is for
+4. Store ingredients as structured `name` + `amount` + `unit` fields, never as prose.
+5. Use only these units: `g`, `kg`, `mL`, `L`, `count`. `count` is for
    unitless items such as eggs and cloves.
 6. Write the method as short steps, one primary action each. Group a
    multi-phase recipe under `### Phase name` subheadings; a short single-phase
