@@ -8,16 +8,16 @@ excerpt: "Pressure ranges and preset cook times for the Instant Pot IP-DUO60, pl
 
 -   Working pressure
 
-    -   Low: 5.8 -- 7.2 psi (40 -- 50 kPa)
-    -   High: 10.2 -- 11.6 psi (70 -- 80 kPa)
+    -   Low: 5.8-7.2 psi (40-50 kPa)
+    -   High: 10.2-11.6 psi (70-80 kPa)
 
 -   **Steam release pressure limit:** 16.68 psi (115 kPa)
 
 ## Pressure cooking presets
 
-"Low" and "high" pressure options are usually available in these presets. The three unlabelled columns are the cook times for the Adjust key's settings.
+"Low" and "high" pressure options are usually available in these presets. The Less, Normal, and More columns are the cook times for the Adjust key's three settings.
 
-| Preset | | | |
+| Preset | Less | Normal | More |
 |---|---|---|---|
 | Soup | Smart program to prevent rolling boil; adjust cook time as desired | | |
 | Porridge | 15 min cook | 20 min cook | 30 min cook |
@@ -31,9 +31,9 @@ excerpt: "Pressure ranges and preset cook times for the Instant Pot IP-DUO60, pl
 
 ## No-pressure presets
 
-Cook times are manually adjustable.
+Cook times are manually adjustable. The Less, Normal, and More columns are the temperature ranges for the Adjust key's three settings.
 
-| Preset | | | |
+| Preset | Less | Normal | More |
 |---|---|---|---|
 | Yogurt | 30-34°C (86-93.2°F) | 36-43°C (96.8-109.4°F) | 71-83°C (160-180°F) |
 | Keep Warm | 63-78°C (145-172°F) | | |
