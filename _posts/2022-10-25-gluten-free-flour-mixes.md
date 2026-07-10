@@ -6,33 +6,25 @@ excerpt: "Grouping gluten-free flours by weight and blending them, with a wheat-
 
 Commonly available non-wheat flours can be grouped as follows:
 
-1.  **Starchy/light:** arrowroot, cornstarch, potato atarch, tapioca (starch or flour), sweet rice (mochiko)
-
--   -   Used to add texture and lightness
-
-1.  **Whole grain/medium: **pea, fava bean, chickpea, millet, oat, quinoa, sorghum, white rice, roasted soybean (kinako)
-
--   -   Legumes give a good rise but have distinct bean flavours
-    -   Sorghum has similar lightness to wheat, nutty flavour
-    -   Millet has same protein content as wheat, powdery texture, sweet flavour
-    -   Oat results are very similar to wheat flour
-
-1.  **Heavy: **almond, amaranth, brown rice, buckwheat, coconut, cornflour, cornmeal, teff, potato
-
--   -   Coconut and potato flours absorb a lot of liquid, so don't use it in a ratio higher than 25%
-    -   Nut flours contribute fat to a recipe, so avoid in pastries
+1. **Starchy/light:** arrowroot, cornstarch, potato starch, tapioca (starch or flour), sweet rice (mochiko)
+   - Used to add texture and lightness
+2. **Whole grain/medium:** pea, fava bean, chickpea, millet, oat, quinoa, sorghum, white rice, roasted soybean (kinako)
+   - Legumes give a good rise but have distinct bean flavours
+   - Sorghum has similar lightness to wheat, nutty flavour
+   - Millet has same protein content as wheat, powdery texture, sweet flavour
+   - Oat results are very similar to wheat flour
+3. **Heavy:** almond, amaranth, brown rice, buckwheat, coconut, cornflour, cornmeal, teff, potato
+   - Coconut and potato flours absorb a lot of liquid, so don't use it in a ratio higher than 25%
+   - Nut flours contribute fat to a recipe, so avoid in pastries
 
 Here are some ratios to experiment with.
 
--   1:1 starch to whole grain for lighter pastries and cakes
-
-    -   You can try adding 1/4 part coconut flour for stability
-
--   For all-purpose mixes, try:
-
-    -   2:1 starch to medium
-    -   1:2 starch to medium
-    -   1:1:1 starch to medium to heavy
+- 1:1 starch to whole grain for lighter pastries and cakes
+  - You can try adding 1/4 part coconut flour for stability
+- For all-purpose mixes, try:
+  - 2:1 starch to medium
+  - 1:2 starch to medium
+  - 1:1:1 starch to medium to heavy
 
 Use binders/stabilizers in ratios according to manufacturer directions.
 

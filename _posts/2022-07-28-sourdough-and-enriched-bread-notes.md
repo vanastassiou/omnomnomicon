@@ -82,10 +82,8 @@ excerpt: "Working notes on sourdough and enriched breads: hydration, dough softe
 
 ### cinnamon raisin sourdough (30% whole wheat)
 
-```markdown
-# Cinnamon Raisin Sourdough (30% Whole Wheat)
+#### ingredients
 
-## Ingredients
 - 263 g all-purpose flour
 - 112 g whole wheat flour
 - 275–285 g water (73–76% hydration)
@@ -96,7 +94,8 @@ excerpt: "Working notes on sourdough and enriched breads: hydration, dough softe
 - 100 g raisins
 - 1.5 tsp cinnamon
 
-## Process
+#### process
+
 1. Mix flours, water, and starter. Rest 45 min (autolyse).
 2. Add salt and butter. Mix until cohesive.
 3. Bulk ferment 4–5 hrs at room temp. Do 3–4 folds.

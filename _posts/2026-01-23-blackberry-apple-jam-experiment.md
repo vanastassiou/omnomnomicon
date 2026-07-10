@@ -48,8 +48,8 @@ Traditional jam recipes rely on commercial pectin and high sugar ratios (often 1
 - Refractometer (winemaking type, 0-30° Brix range)
 - pH strips
 - Isopropanol (for pectin testing)
-- Half-liter canning jars (3)
-- Quarter-liter canning jar (1)
+- Half-litre canning jars (3)
+- Quarter-litre canning jar (1)
 - Trivet/steam rack
 - Jar lifter
 
@@ -62,7 +62,7 @@ Traditional jam recipes rely on commercial pectin and high sugar ratios (often 1
 #### Blackberry Pulp
 
 - **Specific Gravity:** 1.045 (~11° Brix)
-- **pH:** < 4.0 (difficult to read due to color; estimated 3.2-3.6)
+- **pH:** < 4.0 (difficult to read due to colour; estimated 3.2-3.6)
 - **Pectin Test (isopropanol):** Loose clump, sits on fork but not firm — weak pectin
 
 #### Apple Pectin Stock (pre-reduction)
@@ -135,8 +135,8 @@ Combined blackberry pulp (2 L) with reduced apple stock (575 mL).
 
 - Foam skimmed
 - Filled into hot, sterilized jars
-- Initial fill: 4 half-liter jars with ~1" headspace (excessive)
-- Redistributed: 3 half-liter jars + 1 quarter-liter jar with ¼" headspace
+- Initial fill: 4 half-litre jars with ~1" headspace (excessive)
+- Redistributed: 3 half-litre jars + 1 quarter-litre jar with ¼" headspace
 
 ### 4.7 Processing
 
@@ -158,7 +158,7 @@ Combined blackberry pulp (2 L) with reduced apple stock (575 mL).
 
 - **Yield:** 3 × 500 mL jars + 1 × 250 mL jar (~1.75 L total)
 - **Consistency:** Soft set / preserve style
-- **Flavor:** Balanced tart and sweet
+- **Flavour:** Balanced tart and sweet
 - **Seal Status:** All jars sealed (confirmed by lid pop during cooling)
 
 ### Calculated Evaporation
@@ -181,7 +181,7 @@ Combined blackberry pulp (2 L) with reduced apple stock (575 mL).
 ### Challenges
 
 1. Refractometer maxed out at 30° Brix — unable to verify final concentration directly
-2. pH strip readings difficult due to dark juice color
+2. pH strip readings difficult due to dark juice colour
 3. Initial headspace error required redistribution
 4. Probe thermometer lagged in viscous mixture
 
@@ -209,7 +209,7 @@ The experiment successfully produced ~1.75 L of shelf-stable blackberry-apple pr
 
 ---
 
-# Appendix A: Clarifying Questions and Answers
+## Appendix A: Clarifying Questions and Answers
 
 ### A.1 Pectin Science
 
@@ -236,7 +236,7 @@ Factors accelerating breakdown:
 
 **Q: Will temperature affect the pectin test?**
 
-A: No. The isopropanol test works by precipitating pectin based on solubility, not temperature-dependent behavior. However, let the sample cool to avoid hot alcohol fumes (isopropanol boils at ~180°F).
+A: No. The isopropanol test works by precipitating pectin based on solubility, not temperature-dependent behaviour. However, let the sample cool to avoid hot alcohol fumes (isopropanol boils at ~180°F).
 
 ### A.2 Temperature and Gel Point
 
@@ -244,7 +244,7 @@ A: No. The isopropanol test works by precipitating pectin based on solubility, n
 
 A: 220°F is gel point at sea level. The actual target is "boiling point + 8°F." Water boils at 212°F at sea level, so gel point is 220°F there. At higher elevations, water boils at lower temperatures (~2°F less per 1,000 ft), so gel point drops correspondingly. Using 220°F as fixed target at elevation causes overcooking.
 
-The cold plate test and sheeting test work regardless of elevation — they test actual gel behavior rather than relying on temperature as proxy.
+The cold plate test and sheeting test work regardless of elevation — they test actual gel behaviour rather than relying on temperature as proxy.
 
 **Q: What happens if I reach 220°F with good pectin?**
 
@@ -253,7 +253,7 @@ A: At 220°F with good pectin, correct acid, and ~65% sugar, the jam gels as it 
 Overshooting risks:
 
 - Overconcentration (stiff/rubbery texture)
-- Caramelization (darker color, cooked sugar flavor)
+- Caramelization (darker colour, cooked sugar flavour)
 - Pectin degradation (prolonged heat breaks it down)
 
 **Q: Why is 218°F the magic temperature?**
@@ -268,7 +268,7 @@ A: Given low starting Brix (6.5°) with firm pectin test, concentrating first ha
 
 - Concentrates pectin into less volume
 - Less total water to cook off during final jam cook
-- Shorter final cook preserves blackberry flavor
+- Shorter final cook preserves blackberry flavour
 
 Risk: Prolonged heat can degrade pectin. Simmer gently (not hard boil) to ~50% reduction. Retest with isopropanol after to confirm pectin survived.
 
@@ -291,7 +291,7 @@ A: Valid test — checks viscosity and flow-back rate. All gel tests measure the
 - Sheeting test: Drips off spoon in sheet vs. individual drops?
 - Temperature: Enough water evaporated for target concentration?
 
-For moderate pectin, plate test is most reliable as it shows actual gel behavior. Spoon drag confirms viscosity but thick syrup may never gel.
+For moderate pectin, plate test is most reliable as it shows actual gel behaviour. Spoon drag confirms viscosity but thick syrup may never gel.
 
 **Q: I've seen bubbles foam up thickly with glossy texture. Is this a visual indicator of gel?**
 
@@ -309,7 +309,7 @@ A: Too much (>1/4"):
 
 - More trapped air
 - May not achieve proper vacuum seal
-- Can cause surface discoloration
+- Can cause surface discolouration
 - Risk of seal failure
 
 Too little (<1/4"):
@@ -349,21 +349,21 @@ Target endpoint (65° Brix) is calculable; time and exact water loss depend on p
 
 **Q: I find bottled lemon juice disgusting. Can I use fresh lemons?**
 
-A: NCHFP specifies bottled for consistency — fresh lemon juice varies in acidity (pH 2.0-2.6) while bottled is standardized (~2.3). However, for an off-script recipe already using homemade pectin and minimum sugar, fresh lemons are acceptable if final pH is verified below 4.6 (ideally <4.0) before canning. The blackberry-apple base is already acidic enough that fresh lemon acts more for flavor and gel assistance than safety.
+A: NCHFP specifies bottled for consistency — fresh lemon juice varies in acidity (pH 2.0-2.6) while bottled is standardized (~2.3). However, for an off-script recipe already using homemade pectin and minimum sugar, fresh lemons are acceptable if final pH is verified below 4.6 (ideally <4.0) before canning. The blackberry-apple base is already acidic enough that fresh lemon acts more for flavour and gel assistance than safety.
 
 **Q: How much lemon juice should I add?**
 
 A: For ~2.5 L batch, 2-4 tablespoons (juice of 1-2 lemons). Start with 2 tablespoons at sugar addition. Functions:
 
 - Lowers pH slightly, helping pectin gel
-- Brightens flavor
+- Brightens flavour
 - Adds safety margin on acidity
 
-Too much can over-set pectin (rubbery) or dominate blackberry flavor.
+Too much can over-set pectin (rubbery) or dominate blackberry flavour.
 
 ---
 
-# Appendix B: Measurement Conversions
+## Appendix B: Measurement Conversions
 
 |Measurement|Conversion|
 |---|---|
@@ -379,7 +379,7 @@ Too much can over-set pectin (rubbery) or dominate blackberry flavor.
 
 ---
 
-# Appendix C: Equipment Notes
+## Appendix C: Equipment Notes
 
 ### Instant Pot IP-DUO60 Specifications Used
 

@@ -5,31 +5,33 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 ---
 
 ## Table of Contents
-- [Measurement Conversions](#Measurement%20Conversions)
-- [Temperature Conversions](#Temperature%20Conversions)
-- [Sweetener Conversion Chart](#Sweetener%20Conversion%20Chart)
-- [Baking Ratios](#Baking%20Ratios)
-- [Vegan Egg Substitutes](#Vegan%20Egg%20Substitutes)
-- [Gluten-Free Baking Tips](#Gluten-Free%20Baking%20Tips)
-- [Egg Guide](#Egg%20Guide)
-- [Buttercream Frosting Recipes](#Buttercream%20Frosting%20Recipes)
-- [Apple Guide](#Apple%20Guide)
-- [Fresh Herbs Guide](#Fresh%20Herbs%20Guide)
-- [Cooking Oils Guide](#Cooking%20Oils%20Guide)
-- [Flavor Profiles](#Flavor%20Profiles)
-- [Marinade Guide](#Marinade%20Guide)
-- [Salad Building Guide](#Salad%20Building%20Guide)
-- [Salad Dressing Formulas](#Salad%20Dressing%20Formulas)
-- [Instant Pot Cooking Times](#Instant%20Pot%20Cooking%20Times)
-- [Pot Distilling Temperatures](#Pot%20Distilling%20Temperatures)
+
+- [Measurement Conversions](#measurement-conversions)
+- [Temperature Conversions](#temperature-conversions)
+- [Sweetener Conversion Chart](#sweetener-conversion-chart)
+- [Baking Ratios](#baking-ratios)
+- [Vegan Egg Substitutes](#vegan-egg-substitutes)
+- [Gluten-Free Baking Tips](#gluten-free-baking-tips)
+- [Egg Guide](#egg-guide)
+- [Buttercream Frosting Recipes](#buttercream-frosting-recipes)
+- [Apple Guide](#apple-guide)
+- [Fresh Herbs Guide](#fresh-herbs-guide)
+- [Cooking Oils Guide](#cooking-oils-guide)
+- [Flavour Profiles](#flavour-profiles)
+- [Marinade Guide](#marinade-guide)
+- [Salad Building Guide](#salad-building-guide)
+- [Salad Dressing Formulas](#salad-dressing-formulas)
+- [Instant Pot Cooking Times](#instant-pot-cooking-times)
+- [Pot Distilling Temperatures](#pot-distilling-temperatures)
 
 ---
 
 ## Measurement Conversions
 
 ### Flour
+
 | Measurement | Grams |
-|-------------|-------|
+| --- | --- |
 | 1 cup | 140g |
 | 3/4 cup | 105g |
 | 1/2 cup | 70g |
@@ -38,8 +40,9 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 *Weights may change according to method used. Above are according to "dip and sweep" method.*
 
 ### Granulated Sugar
+
 | Measurement | Grams |
-|-------------|-------|
+| --- | --- |
 | 1 cup | 200g |
 | 3/4 cup | 150g |
 | 2/3 cup | 135g |
@@ -48,8 +51,9 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 | 1/4 cup | 50g |
 
 ### Powdered Sugar
+
 | Measurement | Grams |
-|-------------|-------|
+| --- | --- |
 | 1 cup | 160g |
 | 3/4 cup | 120g |
 | 1/2 cup | 80g |
@@ -58,23 +62,26 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 *Weights may change according to method used. Above are according to "spoon and level" method.*
 
 ### Butter
+
 | Measurement | Equivalent | Grams |
-|-------------|------------|-------|
+| --- | --- | --- |
 | 1 cup | 2 sticks = 8 oz | 230g |
 | 1/2 cup | 1 stick = 4 oz | 115g |
 
 ### Heavy Cream
+
 | Measurement | Grams |
-|-------------|-------|
+| --- | --- |
 | 1 cup | 235g |
 | 3/4 cup | 175g |
 | 1/2 cup | 115g |
 | 1/4 cup | 60g |
 | 1 tablespoon | 15g |
 
-### Cup to Tablespoon to Teaspoon to Milliliters
-| Cup | Tablespoons | Teaspoons | Milliliters |
-|-----|-------------|-----------|-------------|
+### Cup to Tablespoon to Teaspoon to Millilitres
+
+| Cup | Tablespoons | Teaspoons | Millilitres |
+| --- | --- | --- | --- |
 | 1 cup | 16 Tbsp | 48 tsp | 240 ml |
 | 3/4 cup | 12 Tbsp | 36 tsp | 180 ml |
 | 2/3 cup | 11 Tbsp | 32 tsp | 160 ml |
@@ -85,8 +92,9 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 | — | — | 1 tsp | 5 ml |
 
 ### Cup to Fluid Ounces
+
 | Cup | Fluid Ounces |
-|-----|--------------|
+| --- | --- |
 | 1 cup | 8 fl oz |
 | 3/4 cup | 6 fl oz |
 | 2/3 cup | 5 fl oz |
@@ -99,8 +107,9 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 ## Temperature Conversions
 
 ### Fahrenheit to Celsius
+
 | Fahrenheit | Celsius |
-|------------|---------|
+| --- | --- |
 | 500°F | 260°C |
 | 475°F | 245°C |
 | 450°F | 235°C |
@@ -119,7 +128,7 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 ## Sweetener Conversion Chart
 
 | Sweetener | 1 tsp | 1 tbsp | 1/4 cup | 1/3 cup | 1/2 cup | 1 cup |
-|-----------|-------|--------|---------|---------|---------|-------|
+| --- | --- | --- | --- | --- | --- | --- |
 | **Sugar** | 1 tsp | 1 tbsp | 1/4 cup | 1/3 cup | 1/2 cup | 1 cup |
 | Swerve | 1 tsp | 1 tbsp | 1/4 cup | 1/3 cup | 1/2 cup | 1 cup |
 | Erythritol | 1 1/4 tsp | 1 tbsp + 1 tsp | 1/3 cup | 1/3 cup + 2 tbsp | 2/3 cup | 1 1/3 cup |
@@ -141,14 +150,14 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 ## Baking Ratios
 
 | Item | Flour | Fat | Liquid | Egg | Sugar | Notes |
-|------|-------|-----|--------|-----|-------|-------|
+| --- | --- | --- | --- | --- | --- | --- |
 | Bread | 5 | — | 3 | — | — | Salt: 2% of flour's weight. Yeast: 1 tsp per 1 lb (454g) of flour. Temperature: 180-210°F (82-98°C) |
 | Pasta | 3 | — | — | 2 | — | 1 egg per person. 1 egg = 2oz (56g). If scaleless: 2 eggs per 1 cup of flour |
 | Pie Dough | 3 | 2 | 1 | — | — | Butter (fat) must be as cold as possible. Dough must be worked as little as possible |
 | Biscuits | 3 | 1 | 2 | — | — | 1 tsp baking powder per 4oz (225g) of flour. Use butter as fat |
-| Cookies | 3 | 2 | — | — | 1 | Use butter as fat. Flavor varies depending on additions |
+| Cookies | 3 | 2 | — | — | 1 | Use butter as fat. Flavour varies depending on additions |
 | Cakes (Pound/Sponge) | 1 | 1 | — | 1 | 1 | **Pound cake order:** butter, sugar, egg, flour. **Sponge cake:** whip eggs and sugar first. **Creaming method:** beat sugar into butter, add eggs, then dry ingredients |
-| Pâte à Choux | 1 | 1 | 2 | 2 | — | Savory & sweet preparations (depends on salt/sugar) |
+| Pâte à Choux | 1 | 1 | 2 | 2 | — | Savoury & sweet preparations (depends on salt/sugar) |
 | Muffins | 2 | 1 | 2 | 1 | — | Straight mixing method. Baking powder |
 | Fritters | 2 | — | 2 | 1 | — | Straight mixing method. Baking powder |
 | Pancakes | 2 | 1/2 | 2 | 1 | — | Straight mixing method |
@@ -160,7 +169,7 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 ## Vegan Egg Substitutes
 
 | Substitution | Works Best In |
-|--------------|---------------|
+| --- | --- |
 | 1 overripe banana | Quick breads, muffins, cookies, sweet recipes |
 | 1/4 cup silken tofu | Quick breads, muffins, pound cake |
 | 1/4 cup vegan yogurt | Quick breads, muffins |
@@ -175,7 +184,7 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 1. **Straight Swap** — If there are less than 2-4 tablespoons of wheat flour in a recipe, do a straight swap with a nut or rice flour of your choice
 2. **Weight Conversion** — 1 cup gluten flour = 140 grams of gluten-free all-purpose flour
 3. **Make Gluten-Free All-Purpose Flour** — Use a 40/60 ratio:
-   - **40% Whole Grains:** brown rice flour, buckwheat flour, corn flour, mesquite flower, quinoa flour, or sorghum flour
+   - **40% Whole Grains:** brown rice flour, buckwheat flour, corn flour, mesquite flour, quinoa flour, or sorghum flour
    - **60% White Flours/Starches:** white rice flour, arrowroot flour, cornstarch, potato flour, or potato starch
 4. **Gum** — If you're making breads or cakes, add 1/2 to 1 teaspoon of guar gum or xanthan gum for every 140 grams of gluten-free all-purpose flour to give your baked goods a bit of volume
 5. **Baking Powder** — Add 1-2 teaspoons of baking powder to every 140 grams of gluten-free all-purpose flour to help your product rise
@@ -189,55 +198,63 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 ## Egg Guide
 
 ### Egg Measurements
+
 | Amount | Volume |
-|--------|--------|
+| --- | --- |
 | 4 eggs | 1 cup (240 ml) |
 | 8 whites | 1 cup (240 ml) |
 | 12 yolks | 1 cup (240 ml) |
 
 ### Egg Anatomy
+
 - **Yolk:** fat, protein, vitamins A, B, D & E
 - **Albumen (white):** protein, water
 - **Shell:** calcium
 - **Air Cell:** at the wide end
 
 ### Whole Egg Uses
+
 | Function | Method |
-|----------|--------|
-| Flavor/color | Direct addition |
+| --- | --- |
+| Flavour/colour | Direct addition |
 | Binding/leavening | One Stage or Creaming method |
 | Thickening | Foaming Method |
 | Glazing | Egg Wash |
 
 **Tips:**
+
 - Add eggs one at a time to allow them to emulsify the fats & liquids in the mixture
 - More Yolks = dense with a fine crumb
 - More Whites = light with a large crumb
 
 ### Egg Whites Uses
+
 | Function | Method |
-|----------|--------|
+| --- | --- |
 | Leavening | Whipped Egg Whites or French Meringue |
 | Base | Whipped Egg Whites or French Meringue |
 | Topping | Italian Meringue |
 | Filling | Italian Meringue |
 
 **Tips:**
+
 - Acid supports structure: add a couple drops lemon juice before whipping
-- Sugar adds flavor & structure: add slowly while whipping, after whites have expanded to a foam
+- Sugar adds flavour & structure: add slowly while whipping, after whites have expanded to a foam
 - Stages: under → soft → firm → over
 
 ### Egg Yolk Uses
+
 | Function | Method |
-|----------|--------|
+| --- | --- |
 | Thickening/setting | Tempering |
 | Binding | Creaming or Foaming |
 
 **Tempering:** To temper, slowly add a portion of the hot liquid to egg mixture while whisking
 
 ### Egg Substitutions
+
 | Function | Substitute |
-|----------|------------|
+| --- | --- |
 | Binding | Ground Flaxseed, Potato Starch Flour, Arrowroot Flour |
 | Leavening | Baking Soda or Powder |
 | Thickening | Agar Agar |
@@ -248,6 +265,7 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 ## Buttercream Frosting Recipes
 
 ### Orange Grand Marnier
+
 - 2 sticks butter
 - 4 cups powdered sugar
 - 1 1/2 teaspoons orange zest
@@ -257,12 +275,14 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 - 1 1/2 - 4 1/2 teaspoons milk
 
 ### Peppermint
+
 - 3 sticks butter
 - 1/2 teaspoon peppermint extract
-- 3-4 drops red food coloring
+- 3-4 drops red food colouring
 - 2 cups powdered sugar
 
 ### Coconut Cream
+
 - 2 sticks butter
 - 3 1/2 cups powdered sugar
 - 1 pinch kosher salt
@@ -271,6 +291,7 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 - 1-2 teaspoons coconut extract
 
 ### Salted Caramel
+
 - 2 sticks butter
 - 4-5 cups powdered sugar
 - 1 cup caramel ice cream topping
@@ -278,12 +299,14 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 - Fleur de sel (for garnish)
 
 ### Matcha Green Tea
+
 - 1 1/2 sticks butter
 - 2 1/2 cups powdered sugar
 - 2 tablespoons milk
 - 1 tablespoon matcha powder
 
 ### Strawberry
+
 - 2 sticks butter
 - 3 1/2 - 4 cups powdered sugar
 - 3-4 tablespoons strawberry syrup
@@ -292,18 +315,21 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 - 1 pinch kosher salt
 
 ### Sticky Peanut Butter
+
 - 1 stick butter
 - 1 cup creamy peanut butter
 - 2 cups powdered sugar
 - 3-6 tablespoons milk
 
 ### Pistachio
+
 - 2 sticks butter
 - 4-5 cups powdered sugar
 - 1 cup milk
 - 6 tablespoons instant pistachio pudding mix
 
 ### Maple Whisky
+
 - 2 sticks butter
 - 3/4 cup powdered sugar
 - 1 cup maple syrup
@@ -312,6 +338,7 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 - 1/4 teaspoon kosher salt
 
 ### Mocha
+
 - 2 sticks butter
 - 4 cups powdered sugar
 - 4 ounces dark chocolate pieces, melted and cooled
@@ -320,18 +347,19 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 - 1/8 teaspoon salt
 
 ### Red Velvet
+
 - 1 1/2 sticks butter
 - 3 1/2 cups powdered sugar
 - 2 tablespoons buttermilk
 - 1 tablespoon unsweetened cocoa powder
-- 2 teaspoons red food coloring
+- 2 teaspoons red food colouring
 
 ---
 
 ## Apple Guide
 
-| Variety | Type | Origin | Flavor | Texture | Best For |
-|---------|------|--------|--------|---------|----------|
+| Variety | Type | Origin | Flavour | Texture | Best For |
+| --- | --- | --- | --- | --- | --- |
 | **Pink Lady** | Dessert apple | Western Australia | Sweet | Crunchy | Eating fresh |
 | **Granny Smith** | Dessert/Cooking apple | Australia | Tart | Firm | Baking |
 | **McIntosh** | Dessert/Cooking apple | Quebec, Canada | Sweet | Juicy | Sauces and butters |
@@ -339,6 +367,7 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 | **Fuji** | Dessert apple | Japan | Sweet | Crunchy | Eating fresh |
 
 **Apple Categories:**
+
 - **Dessert Apples:** Sweet apples best suited for eating fresh
 - **Cooking Apples:** Well-suited for baking in pies and cakes or cooking into sauces or butters
 - **Cider Apples:** Small and tart, best suited for making cider
@@ -349,28 +378,28 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 
 ### Hardy Herbs
 
-| Herb | Flavor | Storage | Pairs With |
-|------|--------|---------|------------|
+| Herb | Flavour | Storage | Pairs With |
+| --- | --- | --- | --- |
 | **Rosemary** | Piney and slightly aromatic | Wrap in a damp paper towel, store in fridge for 1-2 weeks | Lamb, pork, chicken, potatoes, bread, olive oil |
 | **Sage** | Woodsy, warm, slightly peppery | Store in a damp paper towel in fridge | Poultry, pasta, squash, butter, brown butter sauces |
 | **Lemongrass** | Citrusy with a grassy, gingery note | Wrap in plastic, store in fridge 2-3 weeks | Thai curries, soups, seafood, chicken |
 | **Thyme** | Floral, earthy, minty | Wrap in damp paper towel, refrigerate | Poultry, soups, stews, beans, tomatoes |
 | **Chives** | Mild and oniony | Store in a damp paper towel in fridge | Eggs, potatoes, cream cheese, soups |
 | **Lavender** | Sweet floral and subtly citrusy | Dry or store in airtight container | Desserts, honey, baked goods, lamb |
-| **Savory (Winter)** | Strong thyme-like flavor | Store in a damp paper towel | Beans, lentils, meat dishes |
+| **Savory (Winter)** | Strong thyme-like flavour | Store in a damp paper towel | Beans, lentils, meat dishes |
 | **Oregano** | Pungent and peppery | Wrap in damp paper towel, refrigerate | Pizza, tomato sauces, Greek dishes, grilled meats |
 | **Tarragon** | Anise-y and subtle licorice | Store in a damp paper towel in fridge 1 week | Chicken, fish, eggs, béarnaise sauce |
 
 ### Tender Herbs
 
-| Herb | Flavor | Storage | Pairs With |
-|------|--------|---------|------------|
-| **Chervil** | Parsley-like with a delicate anise flavor | Store in a damp paper towel | Eggs, fish, spring vegetables, French cuisine |
+| Herb | Flavour | Storage | Pairs With |
+| --- | --- | --- | --- |
+| **Chervil** | Parsley-like with a delicate anise flavour | Store in a damp paper towel | Eggs, fish, spring vegetables, French cuisine |
 | **Basil (Sweet)** | Fresh, peppery, slightly sweet | Store at room temperature in water, like flowers | Tomatoes, mozzarella, pasta, pesto |
 | **Cilantro** | Bright, citrusy, slightly soapy to some | Store in water in fridge, loosely covered | Mexican, Asian, Indian cuisines, salsas |
 | **Dill** | Grassy, tangy, slightly sweet | Store in damp paper towel in fridge | Fish, pickles, potatoes, yogurt sauces |
 | **Marjoram** | Milder than oregano, slightly sweet | Store in damp paper towel | Mediterranean dishes, vegetables, meats |
-| **Fennel Fronds** | Delicate anise-like flavor | Store in plastic bag in fridge | Fish, salads, pasta, roasted vegetables |
+| **Fennel Fronds** | Delicate anise-like flavour | Store in plastic bag in fridge | Fish, salads, pasta, roasted vegetables |
 | **Thai Basil** | More licorice and spicy than sweet basil | Store like sweet basil | Thai curries, stir-fries, pho |
 | **Mint** | Cool, refreshing, sweet | Store in damp paper towel | Lamb, desserts, drinks, salads |
 | **Parsley (Flat/Curly)** | Fresh, mildly bitter, grassy | Store in water in fridge | Almost everything - stocks, sauces, garnish |
@@ -379,8 +408,8 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 
 ## Cooking Oils Guide
 
-| Oil | Smoke Point | Best Uses | Flavor | Shelf Life | Storage |
-|-----|-------------|-----------|--------|------------|---------|
+| Oil | Smoke Point | Best Uses | Flavour | Shelf Life | Storage |
+| --- | --- | --- | --- | --- | --- |
 | **Almond Oil** | 420°F / 216°C | Sautéing, baking, dressings | Nutty, mild | 6 months | Room temperature |
 | **Avocado Oil** | 520°F / 271°C | High-heat cooking, frying | Buttery, mild | 6-12 months | Room temperature |
 | **Butter** | 350°F / 177°C | Baking, sautéing, finishing | Rich, creamy | 1-3 months | Refrigerated |
@@ -397,7 +426,7 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 | **Lard** | 370°F / 188°C | Frying, baking (pie crusts) | Mild, meaty | 6 months | Refrigerated |
 | **Macadamia Nut Oil** | 390°F / 199°C | Sautéing, dressings | Buttery, nutty | 1-2 years | Room temperature |
 | **Olive Oil (Extra Virgin)** | 320°F / 160°C | Dressings, low-heat cooking, finishing | Fruity, peppery | 18-24 months | Room temperature |
-| **Palm Oil (Red)** | 450°F / 232°C | Frying, African/Brazilian cuisine | Earthy, savory | 6-12 months | Room temperature |
+| **Palm Oil (Red)** | 450°F / 232°C | Frying, African/Brazilian cuisine | Earthy, savoury | 6-12 months | Room temperature |
 | **Peanut Oil** | 450°F / 232°C | Deep frying, Asian cuisine | Nutty | 1-2 years | Room temperature |
 | **Rice Bran Oil** | 450°F / 232°C | Frying, all-purpose | Neutral | 1-2 years | Room temperature |
 | **Safflower Oil** | 510°F / 266°C | High-heat cooking, frying | Neutral | 1 year | Room temperature |
@@ -409,12 +438,14 @@ excerpt: "A reference of kitchen conversion charts: weights, temperatures, sweet
 
 ---
 
-## Flavor Profiles
+## Flavour Profiles
 
-### The Flavor Star
-Balance these five flavor elements: **Salty**, **Sweet**, **Sour**, **Bitter**, **Spicy**
+### The Flavour Star
 
-### Salty & Savory/Umami
+Balance these five flavour elements: **Salty**, **Sweet**, **Sour**, **Bitter**, **Spicy**
+
+### Salty & Savoury/Umami
+
 *Balances bitterness. Enhances sweetness.*
 
 **To Add Salt/Umami:**
@@ -424,6 +455,7 @@ Kosher salt, Sea salt, Anchovies/Anchovy paste, Hard cheese like Parmesan, Soy s
 Mushrooms, Tomatoes, Bacon and other cured meats
 
 ### Sweet
+
 *Balances sourness, bitterness, spice. Enhances saltiness.*
 
 **To Add Sweet:**
@@ -433,6 +465,7 @@ Sugar, Stevia, Maple syrup, Balsamic vinegar, Apple cider vinegar, Ketchup, Red 
 Carrots, Sweet potatoes, Corn, Beets, Butternut/Kabocha squash, Sugar snap peas, Fennel, Parsnips, Peas, Most fruit
 
 ### Sour
+
 *Balances spice, sweetness, bitterness. Enhances saltiness.*
 
 **To Add Sour:**
@@ -442,6 +475,7 @@ Lemon juice, Lime juice, Orange juice, Vinegars (lime, balsamic, apple cider), R
 Tomatoes
 
 ### Bitterness
+
 *Balances sweetness, saltiness.*
 
 **To Add Bitter:**
@@ -451,6 +485,7 @@ Coffee, Cocoa/Cacao, Grapefruit juice, Beer
 Dandelion greens, Endive, Broccoli, Spinach, Kale, Chard, Bitter melon, Radicchio
 
 ### Spicy
+
 *Balances sweetness.*
 
 **To Add Spice:**
@@ -464,20 +499,21 @@ Arugula, Radishes (when raw)
 ## Marinade Guide
 
 ### The Formula
+
 **1 part acid + 3 parts oil + seasonings = 1 dynamite marinade**
 
 ### Components
 
 | Component | Purpose | Options |
-|-----------|---------|---------|
-| **Acid or Enzyme** | Flavor foundation and tenderizer | **Acids:** Vinegars, Wine or beer, Buttermilk, Peach nectar, Citrus juices, Cranberry juice, Rum. **Enzymes:** Yogurt, Greek yogurt, Milk, Pineapple juice, Papaya, Honey |
-| **Fat** | Enhances flavor & prevents food from sticking to the grill | Extra virgin olive oil, Truffle oil, Hot chili oil, Basil oil, Sesame oil, Mayonnaise, Buttermilk, Almond oil |
-| **Seasonings** | Herbs, spices - endless flavor choices | Fresh and dried herbs, Spices, Garlic, Onions or shallots, Green onions, Fresh grated ginger, Citrus zest, Ethnic spice blends, Molasses, Maple syrup, Hot pepper flakes |
+| --- | --- | --- |
+| **Acid or Enzyme** | Flavour foundation and tenderizer | **Acids:** Vinegars, Wine or beer, Buttermilk, Peach nectar, Citrus juices, Cranberry juice, Rum. **Enzymes:** Yogurt, Greek yogurt, Milk, Pineapple juice, Papaya, Honey |
+| **Fat** | Enhances flavour & prevents food from sticking to the grill | Extra virgin olive oil, Truffle oil, Hot chili oil, Basil oil, Sesame oil, Mayonnaise, Buttermilk, Almond oil |
+| **Seasonings** | Herbs, spices - endless flavour choices | Fresh and dried herbs, Spices, Garlic, Onions or shallots, Green onions, Fresh grated ginger, Citrus zest, Ethnic spice blends, Molasses, Maple syrup, Hot pepper flakes |
 
 ### Marinating Times
 
 | Food | Time |
-|------|------|
+| --- | --- |
 | Shellfish | 15 minutes |
 | Seafood | 20-30 minutes |
 | Veggies | 30 minutes |
@@ -485,16 +521,18 @@ Arugula, Radishes (when raw)
 | Beef & Lamb | 3-24 hours |
 
 ### Pro Tips
+
 - Use a blender to whirl everything together
 - Citrus and vinegar marinades are stronger and tenderize food faster than mayo or buttermilk marinades
-- Hold the salt! Salty marinades dry out food. Salt food just before grilling to bring out its natural flavor
+- Hold the salt! Salty marinades dry out food. Salt food just before grilling to bring out its natural flavour
 - Let excess marinade drip from food. No need to shake off or pat dry
 - Flip food over at least once while it's marinating to make sure all sides are covered by the marinade
 
 ### Do's and Don'ts
+
 - **Always** use a non-reactive container: stainless steel, glass, or re-sealable plastic bags all work
 - **Do** refrigerate marinated food in a closed container
-- **Do not** use aluminum containers! Aluminum reacts with acids. It may change the color of food and add a metallic flavor
+- **Do not** use aluminum containers! Aluminum reacts with acids. It may change the colour of food and add a metallic flavour
 - **Do not** use leftover marinade as a sauce unless it has been boiled nonstop for three minutes to kill any harmful bacteria
 
 ---
@@ -502,21 +540,27 @@ Arugula, Radishes (when raw)
 ## Salad Building Guide
 
 ### Base (Pick One)
+
 Lettuce, Spinach, Kale, Chard, Collards, Arugula, Pea Shoots, Cabbage
 
 ### Something Crunchy (Pick One or More)
+
 Carrots, Sprouts, Cucumber, Croutons, Zucchini, Bell Pepper, Apple, Seeds
 
 ### Something Soft (Pick One or More)
+
 Roasted Sweet Potatoes, Cheese, Avocado, Tomatoes, Rice, Olives
 
 ### Something Unexpected (Pick One or More)
+
 Watermelon Cubes, Cottage Cheese, Hummus, Bacon, Pickled Veggies, Herbs, Dried Fruit
 
 ### Protein (Pick One)
+
 Beans, Eggs, Tuna, Chicken, Steak, Tofu, Peas, Quinoa, Nuts
 
 ### Dressing (Pick One)
+
 Mustard-based, Tahini-based, Dairy-based, Vinaigrette, Pesto-based, Fruity
 
 ---
@@ -524,30 +568,33 @@ Mustard-based, Tahini-based, Dairy-based, Vinaigrette, Pesto-based, Fruity
 ## Salad Dressing Formulas
 
 ### Vinaigrette Dressing
-**Ratio: 1 part acid + 3 parts oil + flavor to taste**
+
+**Ratio: 1 part acid + 3 parts oil + flavour to taste**
 
 1. **Pick One Acid** (dissolve a pinch of salt into 1 part of acid): Lemon juice, Lime juice, Vinegar
 2. **Pick One Oil** (whisk in 3 parts of oil): Grapeseed oil, Olive oil, Brown butter, Bacon fat
-3. **Pick One Flavor**: Herbs, Shallots, Mustard, Garlic
+3. **Pick One Flavour**: Herbs, Shallots, Mustard, Garlic
 4. Season with salt and pepper
 
 ### Creamy Dressing
-**Ratio: 3 parts creamy ingredient + 1 part flavor + liquid to thin**
+
+**Ratio: 3 parts creamy ingredient + 1 part flavour + liquid to thin**
 
 1. **Pick One Creamy Ingredient** (mix 3 parts): Greek yogurt, Mayo, Crème fraîche, Sour cream
-2. **Pick One Flavor**: Herbs, Soy sauce, Chopped scallions, Garlic, Blue cheese, Honey, Chili sauce, Anchovies
+2. **Pick One Flavour**: Herbs, Soy sauce, Chopped scallions, Garlic, Blue cheese, Honey, Chili sauce, Anchovies
 3. **Pick One Liquid** (add until it coats a lettuce leaf): Lemon juice, Lime juice, Water, Buttermilk
 4. Season with salt and pepper
 
 ---
 
 ## Instant Pot Cooking Times
+
 *All times at 12 PSI / High Pressure Level*
 
 ### Beans & Lentils
 
 | Ingredient | Venting Method | Pressure | Dry Time | Soaked Time |
-|------------|---------------|----------|----------|-------------|
+| --- | --- | --- | --- | --- |
 | Black Beans | Quick Release | High | 20 mins | 3 mins |
 | Black Eyed Peas | Quick Release | High | 16 mins | 4 mins |
 | Chickpeas | Quick Release | High | 35 mins | 5 mins |
@@ -564,7 +611,7 @@ Mustard-based, Tahini-based, Dairy-based, Vinaigrette, Pesto-based, Fruity
 ### Meat & Eggs
 
 | Ingredient | Venting Method | Pressure | Time | Notes |
-|------------|---------------|----------|------|-------|
+| --- | --- | --- | --- | --- |
 | Beef (stew) | Natural Release | High | 25 mins | — |
 | Beef (large pieces) | Natural Release | High | 25-30 mins | per 450g / 1 lb |
 | Beef (ribs) | Natural Release | High | 4 hours | per 450g / 1 lb |
@@ -579,7 +626,7 @@ Mustard-based, Tahini-based, Dairy-based, Vinaigrette, Pesto-based, Fruity
 ### Seafood
 
 | Ingredient | Venting Method | Pressure | Time |
-|------------|---------------|----------|------|
+| --- | --- | --- | --- |
 | Fish (whole) | Quick Release | Low | 4-5 mins |
 | Fish (fillet) | Quick Release | Low | 1-2 mins |
 | Lobster | Quick Release | Low | 2 mins |
@@ -590,7 +637,7 @@ Mustard-based, Tahini-based, Dairy-based, Vinaigrette, Pesto-based, Fruity
 ### Rice & Grains
 
 | Ingredient | Grain:Water Ratio | Venting Method | Pressure | Time |
-|------------|-------------------|---------------|----------|------|
+| --- | --- | --- | --- | --- |
 | Barley (pearl) | 1:2.5 | Natural Release | High | 10 mins |
 | Congee | 1:4 - 1:5 | Natural Release | High | 15-20 mins |
 | Millet | 1:1.75 | Natural Release | High | 1-3 mins |
@@ -607,7 +654,7 @@ Mustard-based, Tahini-based, Dairy-based, Vinaigrette, Pesto-based, Fruity
 ### Vegetables
 
 | Ingredient | Venting Method | Pressure | Time |
-|------------|---------------|----------|------|
+| --- | --- | --- | --- |
 | Asparagus | Quick Release | High | 1 min |
 | Beans (yellow & green) | Quick Release | High | 1 min |
 | Broccoli (florets) | Quick Release | Low | 1 min |
@@ -629,7 +676,7 @@ Mustard-based, Tahini-based, Dairy-based, Vinaigrette, Pesto-based, Fruity
 ## Pot Distilling Temperatures
 
 | Fraction | Temperature | ABV | Instructions |
-|----------|-------------|-----|--------------|
+| --- | --- | --- | --- |
 | **Foreshots** (The Bad Stuff) | Up to 175°F (80°C) | High | Collect at least 4 oz / 5 gallons. **DISCARD IT** - contains methanol and other poisons |
 | **Heads** | 176°F (80°C) - 196°F (91°C) | Usually +80% ABV (+160 proof) | Collect for blending. Can be re-distilled later |
 | **Hearts** (The Best Stuff) | 196°F (91°C) - 203°F (95°C) | Start around 80% ABV (160 proof) until below 65% ABV (130 proof) | **COLLECT & SAVE** - or personal preference |

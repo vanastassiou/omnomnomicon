@@ -6,12 +6,10 @@ excerpt: "Pressure ranges and preset cook times for the Instant Pot IP-DUO60, pl
 
 ## Pressure reference
 
--   Working pressure
-
-    -   Low: 5.8-7.2 psi (40-50 kPa)
-    -   High: 10.2-11.6 psi (70-80 kPa)
-
--   **Steam release pressure limit:** 16.68 psi (115 kPa)
+- Working pressure
+  - Low: 5.8-7.2 psi (40-50 kPa)
+  - High: 10.2-11.6 psi (70-80 kPa)
+- **Steam release pressure limit:** 16.68 psi (115 kPa)
 
 ## Pressure cooking presets
 
