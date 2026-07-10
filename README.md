@@ -50,8 +50,20 @@ entries and structured recipes. Live at
 
 ## Writing a journal entry
 
-1. Create `_posts/YYYY-MM-DD-slug.md`.
-2. Add front matter:
+1. Generate a dated stub with the helper (recommended):
+
+   ```bash
+   ruby bin/new_post.rb "Sourdough Notes"         # -> _posts/2026-01-01-sourdough-notes.md
+   ruby bin/new_post.rb --toc "Milling Deep Dive" # same, plus a Table of Contents scaffold
+   ```
+
+   It stamps today's date into both the filename and front matter, derives the
+   slug from the title, and refuses to overwrite an existing entry. Pass `--toc`
+   for long reference posts to drop in kramdown's auto-TOC marker (`{:toc}`),
+   which builds a nested Table of Contents from the post's headings at build
+   time and stays in sync as you add or rename sections.
+
+   Or create `_posts/YYYY-MM-DD-slug.md` by hand with this front matter:
 
    ```yaml
    ---
@@ -60,7 +72,7 @@ entries and structured recipes. Live at
    ---
    ```
 
-3. Write the body in Markdown. The `post` layout applies automatically.
+2. Write the body in Markdown. The `post` layout applies automatically.
 
 ## Writing a recipe
 
