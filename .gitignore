@@ -1,0 +1,33 @@
+# Build output, dependencies, and caches
+public/
+node_modules/
+.quartz-cache/
+tsconfig.tsbuildinfo
+
+# Obsidian vault internals, and anything filed as private. A generator's publish
+# filter governs the built site only, so private notes must stay out of the
+# repository as well: this repo is public, and a committed file is public.
+.obsidian/
+private/
+
+plan.md
+
+# OS noise
+.DS_Store
+
+# Claude Code / agent files — never commit or publish (kept local only)
+CLAUDE.md
+.claude/
+.mcp.json
+
+# Stray shell/IDE dotfiles that can surface in the repo root (sandbox mounts of
+# /dev/null, accidental drops) — never part of the site. (.gitmodules is left
+# tracked deliberately, in case real submodules are ever added.)
+.bashrc
+.bash_profile
+.zshrc
+.zprofile
+.profile
+.gitconfig
+.ripgreprc
+.idea
