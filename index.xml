@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Omnomnomicon</title>
+      <link>https://omnomnomicon.arkavian.house</link>
+      <description>Last 10 notes on Omnomnomicon</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>tinkering</title>
+    <link>https://omnomnomicon.arkavian.house/tech/tinkering/</link>
+    <guid>https://omnomnomicon.arkavian.house/tech/tinkering/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 03 Sep 2026 19:13:22 GMT</pubDate>
+  </item><item>
+    <title>tech</title>
+    <link>https://omnomnomicon.arkavian.house/tech/</link>
+    <guid>https://omnomnomicon.arkavian.house/tech/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 03 Sep 2026 19:13:22 GMT</pubDate>
+  </item><item>
+    <title>Tag Index</title>
+    <link>https://omnomnomicon.arkavian.house/tags/</link>
+    <guid>https://omnomnomicon.arkavian.house/tags/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 03 Sep 2026 19:13:22 GMT</pubDate>
+  </item><item>
+    <title>Welcome to Omnomnomicon</title>
+    <link>https://omnomnomicon.arkavian.house/</link>
+    <guid>https://omnomnomicon.arkavian.house/</guid>
+    <description><![CDATA[ Recipes tested to the point of paranoia, and notes from a home lab that takes itself slightly too seriously. ]]></description>
+    <pubDate>Wed, 02 Sep 2026 07:00:00 GMT</pubDate>
+  </item><item>
+    <title>This blog&#039;s architecture</title>
+    <link>https://omnomnomicon.arkavian.house/tech/tinkering/blog-architecture</link>
+    <guid>https://omnomnomicon.arkavian.house/tech/tinkering/blog-architecture</guid>
+    <description><![CDATA[ A description of this blog's architecture. ]]></description>
+    <pubDate>Wed, 02 Sep 2026 07:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
