@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Omnomnomicon</title>
+      <title>The Omnomnomicon</title>
       <link>https://omnomnomicon.arkavian.house</link>
-      <description>Last 10 notes on Omnomnomicon</description>
+      <description>Last 10 notes on The Omnomnomicon</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Tag Index</title>
+    <link>https://omnomnomicon.arkavian.house/tags/</link>
+    <guid>https://omnomnomicon.arkavian.house/tags/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
+  </item><item>
+    <title>tinkering</title>
+    <link>https://omnomnomicon.arkavian.house/tech/tinkering/</link>
+    <guid>https://omnomnomicon.arkavian.house/tech/tinkering/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
+  </item><item>
+    <title>tech</title>
+    <link>https://omnomnomicon.arkavian.house/tech/</link>
+    <guid>https://omnomnomicon.arkavian.house/tech/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
+  </item><item>
     <title>coding</title>
     <link>https://omnomnomicon.arkavian.house/tags/coding</link>
     <guid>https://omnomnomicon.arkavian.house/tags/coding</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
   </item><item>
     <title>bash</title>
     <link>https://omnomnomicon.arkavian.house/tags/bash</link>
     <guid>https://omnomnomicon.arkavian.house/tags/bash</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
   </item><item>
     <title>quartz</title>
     <link>https://omnomnomicon.arkavian.house/tags/quartz</link>
     <guid>https://omnomnomicon.arkavian.house/tags/quartz</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
   </item><item>
     <title>obsidian</title>
     <link>https://omnomnomicon.arkavian.house/tags/obsidian</link>
     <guid>https://omnomnomicon.arkavian.house/tags/obsidian</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
   </item><item>
     <title>obsidian-vault</title>
     <link>https://omnomnomicon.arkavian.house/tags/obsidian-vault</link>
     <guid>https://omnomnomicon.arkavian.house/tags/obsidian-vault</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
   </item><item>
     <title>tech</title>
     <link>https://omnomnomicon.arkavian.house/tags/tech</link>
     <guid>https://omnomnomicon.arkavian.house/tags/tech</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
   </item><item>
     <title>tinkering</title>
     <link>https://omnomnomicon.arkavian.house/tags/tinkering</link>
     <guid>https://omnomnomicon.arkavian.house/tags/tinkering</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
-  </item><item>
-    <title>blog</title>
-    <link>https://omnomnomicon.arkavian.house/tags/blog</link>
-    <guid>https://omnomnomicon.arkavian.house/tags/blog</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
-  </item><item>
-    <title>meta</title>
-    <link>https://omnomnomicon.arkavian.house/tags/meta</link>
-    <guid>https://omnomnomicon.arkavian.house/tags/meta</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
-  </item><item>
-    <title>Tag Index</title>
-    <link>https://omnomnomicon.arkavian.house/tags/</link>
-    <guid>https://omnomnomicon.arkavian.house/tags/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 04 Sep 2026 07:09:38 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 07:16:03 GMT</pubDate>
   </item>
     </channel>
   </rss>
