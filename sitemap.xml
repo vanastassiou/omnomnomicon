@@ -1,9 +1,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://omnomnomicon.arkavian.house/brewing/logs/brew-log-2016-apricot-melomel</loc>
+    <lastmod>2016-12-07T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/brewing/logs/brew-log-caramelizing-honey-for-bochets-short-comparison</loc>
+    <lastmod>2017-01-11T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/brewing/logs/brew-log-monofloral-traditional-mead-experiments</loc>
+    <lastmod>2016-12-27T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/brewing/research/mead-101</loc>
+    <lastmod>2016-11-22T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/brewing/research/notes-on-measured-and-perceived-sweetness-in-brews</loc>
+    <lastmod>2016-11-24T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/crafts/sewing-machine-lighting-mod</loc>
+    <lastmod>2018-11-26T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/experiments/fridge-cleanout-cheesecake-and-notes-on-custard</loc>
+    <lastmod>2016-12-02T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/cakes-and-sweet-loaves/aimees-birthday-cake-black-bean-chocolate-cake-with-whipped-ganache-frosting</loc>
+    <lastmod>2018-05-26T07:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/cakes-and-sweet-loaves/andrews-birthday-cake-almond-butter-cake-with-amaretto-italian-buttercream</loc>
+    <lastmod>2018-05-19T07:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/cakes-and-sweet-loaves/marmalade-cake</loc>
     <lastmod>2026-09-08T07:00:00.000Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/cookies/peanut-butter-chocolate-chip-cookies</loc>
     <lastmod>2026-09-08T07:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/cooking/desserts/accidentally-awesome-cabin-ice-cream</loc>
+    <lastmod>2018-04-05T07:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/cooking/desserts/trifle-custard</loc>
+    <lastmod>2017-11-06T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/research/making-jelly-101-a-recipeless-how-to</loc>
+    <lastmod>2016-11-17T08:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/research/research-on-gluten-free-flour-mixes</loc>
+    <lastmod>2016-12-31T08:00:00.000Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/</loc>
     <lastmod>2026-09-02T07:00:00.000Z</lastmod>
@@ -11,108 +50,213 @@
     <loc>https://omnomnomicon.arkavian.house/tech/tinkering/blog-architecture</loc>
     <lastmod>2026-08-26T07:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/cakes-and-sweet-loaves/</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <loc>https://omnomnomicon.arkavian.house/brewing/logs/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
-    <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <loc>https://omnomnomicon.arkavian.house/brewing/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
-    <loc>https://omnomnomicon.arkavian.house/food/recipes/</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <loc>https://omnomnomicon.arkavian.house/brewing/research/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/crafts/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/experiments/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/food/</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/cakes-and-sweet-loaves/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/food/recipes/baking/cookies/</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/cooking/desserts/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/recipes/cooking/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/food/research/</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tech/tinkering/</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tech/</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/brewing</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/mead</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/brew-log</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/apricot</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/melomel</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/honey</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/bochet</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/reference</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/wine</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/crafts</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/sewing</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/diy</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/electronics</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/baking</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/cheesecake</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/custard</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/cake</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/birthday</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/gluten-free</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/chocolate</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/almond</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/genoise</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/cia-trained</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/butter-cake</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/loaf</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/quick-bread</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/sweet</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/marmalade</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/orange</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/citrus</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/coffee-cake</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/snack-cake</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/jam</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/recipe</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/melissa-clark</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/cookie</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/peanut-butter</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/browned-butter</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/serious-eats</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/carrie-vasios-mullins</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/cooking</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/dessert</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/ice-cream</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/vanilla</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
+  </url><url>
+    <loc>https://omnomnomicon.arkavian.house/tags/frozen-custard</loc>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/coding</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/bash</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/quartz</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/obsidian</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/obsidian-vault</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/tech</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/tinkering</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/blog</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/meta</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url><url>
     <loc>https://omnomnomicon.arkavian.house/tags/</loc>
-    <lastmod>2026-09-08T22:24:26.647Z</lastmod>
+    <lastmod>2026-09-09T05:20:35.434Z</lastmod>
   </url></urlset>
