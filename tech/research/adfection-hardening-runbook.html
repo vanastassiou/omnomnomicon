@@ -163,136 +163,130 @@
 <li><strong>Configure system-wide DNS filtering</strong>: blocks advertising domains, including in apps; System Settings → Network → your connection → Details → DNS → a filtering resolver, encrypted if offered</li>
 </ol>
 <h2 id="checking-your-work">Checking your work<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#checking-your-work" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="table-container"><table><thead><tr><th>#</th><th>Fix type</th><th>Check procedure</th><th>Expected result</th><th></th></tr></thead><tbody><tr><td>1</td><td>WebRTC</td><td>Turn on your VPN and open <a href="https://browserleaks.com/webrtc" class="external external-link">BrowserLeaks WebRTC<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>Your real public IP doesn’t appear</td><td></td></tr><tr><td>2</td><td>Ad blocking</td><td>Load a news site that normally shows ads</td><td>The uBlock icon shows a non-zero count and ad slots stay empty</td><td></td></tr><tr><td>3</td><td>DNS filtering (desktop)</td><td>Run <code>nslookup mtrtb.com</code> (<a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/" class="external external-link">a Discover-Tech domain<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>)</td><td>A filtering resolver that lists it returns <code>0.0.0.0</code> or no answer; a normal IP means your list doesn’t cover it. An error with no answer can also mean a failed lookup, so retry with a known-good domain</td><td></td></tr><tr><td>4</td><td>DNS filtering (Android)</td><td>Open Settings → Network &amp; internet → Private DNS, then load <code>mtrtb.com</code> in the browser</td><td>Private DNS shows your provider’s hostname, and the page fails to load</td><td></td></tr><tr><td>5</td><td>Chrome JIT (desktop)</td><td>Browse to <a href="https://risky.biz/risky-biz-news-google-addresses-jit-security-in-chrome-122/" class="external external-link"><code>chrome://settings/content/v8</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>The page lists the optimizer as disallowed</td><td></td></tr><tr><td>6</td><td>Firefox JIT</td><td>Browse to <code>about:config</code> and search for <code>javascript.options.ion</code> and <code>javascript.options.baselinejit</code></td><td>Both read <code>false</code></td><td></td></tr><tr><td>7</td><td>Chrome JIT (Android)</td><td>Open <a href="https://support.google.com/chrome/answer/10468685?hl=en" class="external external-link">Chrome → Settings → Privacy and security → Security → JavaScript optimization and security<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>The V8 optimizer reads off</td><td></td></tr><tr><td>8</td><td>Android advertising ID</td><td>Open <a href="https://policies.google.com/technologies/ads/embedded" class="external external-link">Settings → Privacy → Ads<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>The screen shows no advertising ID</td><td></td></tr><tr><td>9</td><td>Android Advanced Protection</td><td>Open <a href="https://support.google.com/android/answer/16339980?hl=en" class="external external-link">Advanced Protection<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>Device protection reads on</td><td></td></tr><tr><td>10</td><td>Edge JIT</td><td>Open <a href="https://support.microsoft.com/en-US/edge/enhance-your-security-on-the-web-with-microsoft-edge" class="external external-link">Edge → Settings → Privacy, search, and services → Security<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>Enhance your security on the web reads Strict</td><td></td></tr><tr><td>11</td><td>Windows advertising ID</td><td>Open Settings → Privacy &amp; security → General</td><td>Personalized ads using your advertising ID reads off</td><td></td></tr><tr><td>12</td><td>Windows DNS</td><td>Open Settings → Network &amp; internet → your connection</td><td>DNS server assignment lists your filtering resolver</td><td></td></tr><tr><td>13</td><td>macOS advertising</td><td>Open <a href="https://support.apple.com/en-gb/105131" class="external external-link">System Settings → Privacy &amp; Security → Apple Advertising<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>Personalized Ads reads off</td><td></td></tr><tr><td>14</td><td>macOS Lockdown Mode</td><td>Open <a href="https://www.macstories.net/?p=70070" class="external external-link">System Settings → Privacy &amp; Security → Lockdown Mode<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></td><td>Lockdown Mode reads on</td><td></td></tr><tr><td>15</td><td>macOS DNS</td><td>Open System Settings → Network → your connection → Details → DNS</td><td>The DNS tab lists your filtering resolver</td><td></td></tr><tr><td>16</td><td>Kubuntu updates</td><td>Run <code>systemctl status unattended-upgrades</code></td><td>The service reports active</td><td></td></tr></tbody></table></div>
+<ol>
+<li><strong>WebRTC</strong>
+<ul>
+<li><strong>Check:</strong> turn on your VPN and open <a href="https://browserleaks.com/webrtc" class="external external-link">BrowserLeaks WebRTC<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Expected result:</strong> your real public IP doesn’t appear</li>
+</ul>
+</li>
+<li><strong>Ad blocking</strong>
+<ul>
+<li><strong>Check:</strong> load a news site that normally shows ads</li>
+<li><strong>Expected result:</strong> the uBlock icon shows a non-zero count and ad slots stay empty</li>
+</ul>
+</li>
+<li><strong>DNS filtering</strong>
+<ul>
+<li>a. Desktop (Kubuntu, Windows, macOS)
+<ul>
+<li><strong>Check:</strong> run <code>nslookup mtrtb.com</code> (<a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/" class="external external-link">a Discover-Tech domain<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>)</li>
+<li><strong>Expected result:</strong> a filtering resolver that lists it returns <code>0.0.0.0</code> or no answer
+<ul>
+<li>A normal IP means your list doesn’t cover it</li>
+<li>An error with no answer can also mean a failed lookup, so retry with a known good domain</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>b. Android
+<ul>
+<li><strong>Check:</strong> open <code>Settings → Network &amp; internet → Private DNS</code>, then load <code>mtrtb.com</code> in the browser</li>
+<li><strong>Expected result:</strong> <code>Private DNS</code> shows your provider’s hostname, and the page fails to load</li>
+</ul>
+</li>
+<li>c. Windows
+<ul>
+<li><strong>Check:</strong> open <code>Settings → Network &amp; internet → your connection</code></li>
+<li><strong>Expected result:</strong> <code>DNS server assignment</code> lists your filtering resolver</li>
+</ul>
+</li>
+<li>d. macOS
+<ul>
+<li><strong>Check:</strong> open <code>System Settings → Network → your connection → Details → DNS</code></li>
+<li><strong>Expected result:</strong> the <code>DNS</code> tab lists your filtering resolver</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>JavaScript JIT</strong>
+<ul>
+<li>a. Chrome (desktop)
+<ul>
+<li><strong>Check:</strong> browse to <a href="https://risky.biz/risky-biz-news-google-addresses-jit-security-in-chrome-122/" class="external external-link"><code>chrome://settings/content/v8</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Expected result:</strong> the page lists the optimizer as disallowed</li>
+</ul>
+</li>
+<li>b. Firefox (desktop)
+<ul>
+<li><strong>Check:</strong> browse to <code>about:config</code> and search for <code>javascript.options.ion</code> and <code>javascript.options.baselinejit</code></li>
+<li><strong>Expected result:</strong> both read <code>false</code></li>
+</ul>
+</li>
+<li>c. Chrome (Android)
+<ul>
+<li><strong>Check:</strong> open <a href="https://support.google.com/chrome/answer/10468685?hl=en" class="external external-link"><code>Chrome → Settings → Privacy and security → Security → JavaScript optimization and security</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Expected result:</strong> the <code>V8 optimizer</code> reads <code>off</code></li>
+</ul>
+</li>
+<li>d. Edge (Windows)
+<ul>
+<li><strong>Check:</strong> open <a href="https://support.microsoft.com/en-US/edge/enhance-your-security-on-the-web-with-microsoft-edge" class="external external-link"><code>Edge → Settings → Privacy, search, and services → Security</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Expected result:</strong> <code>Enhance your security on the web</code> reads <code>Strict</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Advertising ID</strong>
+<ul>
+<li>a. Android
+<ul>
+<li><strong>Check:</strong> open <a href="https://policies.google.com/technologies/ads/embedded" class="external external-link"><code>Settings → Privacy → Ads</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Expected result:</strong> the screen shows no advertising ID</li>
+</ul>
+</li>
+<li>b. Windows
+<ul>
+<li><strong>Check:</strong> open <code>Settings → Privacy &amp; security → General</code></li>
+<li><strong>Expected result:</strong> <code>Personalized ads using your advertising ID</code> reads <code>off</code></li>
+</ul>
+</li>
+<li>c. macOS
+<ul>
+<li><strong>Check:</strong> open <a href="https://support.apple.com/en-gb/105131" class="external external-link"><code>System Settings → Privacy &amp; Security → Apple Advertising</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Expected result:</strong> <code>Personalized Ads</code> reads <code>off</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Platform hardening mode</strong>
+<ul>
+<li>a. Android Advanced Protection
+<ul>
+<li><strong>Check:</strong> open <a href="https://support.google.com/android/answer/16339980?hl=en" class="external external-link"><code>Advanced Protection</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Expected result:</strong> <code>Device protection</code> reads <code>on</code></li>
+</ul>
+</li>
+<li>b. macOS Lockdown Mode
+<ul>
+<li><strong>Check:</strong> open <a href="https://www.macstories.net/?p=70070" class="external external-link"><code>System Settings → Privacy &amp; Security → Lockdown Mode</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li><strong>Expected result:</strong> <code>Lockdown Mode</code> reads <code>on</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Automatic updates (Kubuntu)</strong>
+<ul>
+<li><strong>Check:</strong> run <code>systemctl status unattended-upgrades</code></li>
+<li><strong>Expected result:</strong> the service reports <code>active</code></li>
+</ul>
+</li>
+</ol>
 <h2 id="gaps-left-after-all-that-work">Gaps left after all that work<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#gaps-left-after-all-that-work" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <p>You’ve just made it more expensive and complicated for an attack to land on your device, but your devices still aren’t bulletproof.</p>
 <ol>
 <li><strong>Zero-day exploits still work</strong>: only if a bug is already known can an update patch it; while turning off JIT narrows the attack surface, it’s not closed since <a href="https://discuss.privacyguides.net/t/v8-jit-javascript-wasm-engine-can-be-disabled-configured-on-a-per-site-basis-in-chromium-122/17126" class="external external-link">recent Chrome builds can still run WebAssembly with the V8 optimizer disallowed, depending on version and platform<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
-<li><strong>Blocklists lag behind the reality of the rotating infrastructure used by attackers</strong>: <a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/" class="external external-link">In this attack, Discover-Tech moved between many domains and also used CloudFront distributions<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>; no one can decisively block a not-previously-known domain, and pre-emptively blocking shared CDN hostnames will also break legitimate sites</li>
+<li><strong>Blocklists lag behind the reality of the rotating infrastructure used by attackers</strong>: <a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/" class="external external-link">Discover-Tech moved between many domains and also used CloudFront distributions<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>; no one can decisively block a not-previously-known domain, and pre-emptively blocking shared CDN hostnames will also break legitimate sites</li>
 <li><strong>Browser controls don’t touch in-app ads</strong>: <a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/" class="external external-link">in this case, most ad bids were embedded in mobile apps<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
 <ul>
 <li>Also complicating things: if an app uses its own encrypted DNS, this bypasses system DNS filtering</li>
